@@ -5,13 +5,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "2024 NEW MODELS | Safe up to 300€",
-            "link": ""
-          }
-        },
         "announcement_EPHNzV": {
           "type": "announcement",
           "settings": {
@@ -21,7 +14,6 @@
         }
       },
       "block_order": [
-        "announcement-bar-0",
         "announcement_EPHNzV"
       ],
       "settings": {
@@ -29,6 +21,30 @@
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": true,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "announcement_bar_LctY6d": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_x4TXC4": {
+          "type": "announcement",
+          "settings": {
+            "text": "2024 NEW MODELS | Safe up to 300€",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_x4TXC4"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
@@ -55,6 +71,7 @@
   },
   "order": [
     "announcement-bar",
+    "announcement_bar_LctY6d",
     "header"
   ]
 }
