@@ -519,6 +519,163 @@
       "send_on_label": "Send on (optional)"
     }
   },
+  "reviews": {
+    "customer_say": "What our customers say",
+    "review1": {
+      "title": "Can do",
+      "name": "Hans Müller",
+      "text": "I bought a folding bike and am very satisfied with the experience. The bike itself is of high quality and meets all my expectations. I can only recommend the shop!",
+      "date": "04.04.2024",
+      "rating": "4.5"
+    },
+    "review2": {
+      "title": "Delivery and product ok👍",
+      "name": "L. Schneider",
+      "text": "I recently purchased a Shimano gear lever from this shop. The gear lever fulfills its function and the quality is solid.",
+      "date": "02.04.2024",
+      "rating": "3.5"
+    },
+    "review3": {
+      "title": "Relaxed Shopping",
+      "name": "J. Stabler",
+      "text": "I recently bought a helmet here. It fits well and looks normal. Delivery was quite fast.",
+      "date": "29.03.2024",
+      "rating": "4.5"
+    },
+    "review4": {
+      "title": "Good Shopping",
+      "name": "Thierry A.",
+      "text": "Looks great, runs great, well equipped and comfortable. Fast delivery and excellent service.",
+      "date": "01.03.2024",
+      "rating": "5"
+    },
+    "review5": {
+      "title": "Fast Delivery",
+      "name": "Tomas",
+      "text": "Very stable guards for bike. Light and comfortable, fast delivery.",
+      "date": "16.02.2024",
+      "rating": "5"
+    },
+    "review6": {
+      "title": "Everything good👍",
+      "name": "Celine J",
+      "text": "Very poorly cut, but fast delivery and good material quality.",
+      "date": "14.01.2024",
+      "rating": "3.5"
+    },
+    "review7": {
+      "title": "Safe on the Road",
+      "name": "Julien Delorme",
+      "text": "Light. Good manufacturing. See in time and very good processing.",
+      "date": "13.01.2024",
+      "rating": "5"
+    },
+    "review8": {
+      "title": "Daily Help",
+      "name": "Morand Benoit",
+      "text": "Very well made and very practical product. Helps me daily!",
+      "date": "26.12.2023",
+      "rating": "5"
+    },
+    "review9": {
+      "title": "Looks Good!",
+      "name": "Daniel Rossi",
+      "text": "Product according to the description. Not used yet, but looks good.",
+      "date": "13.12.2023",
+      "rating": "4"
+    },
+    "review10": {
+      "title": "A Solid Choice",
+      "name": "Peter Cauwels",
+      "text": "Very good purchase, reliable and powerful.",
+      "date": "07.12.2023",
+      "rating": "5"
+    },
+    "review11": {
+      "title": "No More Tears.",
+      "name": "VISOIU IONUT RAZVAN",
+      "text": "Really. The cold air made my eyes water, but not anymore with this product.",
+      "date": "17.11.2023",
+      "rating": "5"
+    },
+    "review12": {
+      "title": "A Bit Pricey",
+      "name": "Antxon",
+      "text": "A little expensive",
+      "date": "31.10.2023",
+      "rating": "3"
+    },
+    "review13": {
+      "title": "Robust and Water Resistant",
+      "name": "Hector",
+      "text": "Good metallic chassis, it illuminates well, water resistant. Good product",
+      "date": "22.10.2023",
+      "rating": "5"
+    },
+    "review14": {
+      "title": "Well-Made Quality Product",
+      "name": "Gregoire Marti",
+      "text": "Good quality hood, well-made seams",
+      "date": "16.10.2023",
+      "rating": "5"
+    },
+    "review15": {
+      "title": "Meets Expectations",
+      "name": "Quentin Borg",
+      "text": "Product corresponding to the need.",
+      "date": "04.10.2023",
+      "rating": "5"
+    },
+    "review16": {
+      "title": "Fast Delivery, High Satisfaction",
+      "name": "Pierre BERTA",
+      "text": "Excellent bike and very fast delivery. I have made a few adjustments and took over some parts of my old Dahon Mu Uno bike: the saddle, the mudguards and the pedals.",
+      "date": "27.09.2023",
+      "rating": "5"
+    },
+    "review17": {
+      "title": "Top Quality Products",
+      "name": "hugues meth",
+      "text": "Top ! Great products 🌟",
+      "date": "18.09.2023",
+      "rating": "5"
+    },
+    "review18": {
+      "title": "Accurate Description",
+      "name": "bahran el fakh",
+      "text": "Conforme à la description, attention néanmoins, l'indicateur d'une des ventouse reste marqué en blanc alors qu'il n'y a plus d'air dans la ventouse",
+      "date": "25.08.2023",
+      "rating": "4"
+    },
+    "review19": {
+      "title": "Good Product with Minor Improvements Needed",
+      "name": "Jose V.",
+      "text": "In my opinion, although I have only used it a couple of times I think it is a good product. I miss a list of compatible vehicles. A transport bag would also be good.",
+      "date": "08.08.2023",
+      "rating": "4"
+    },
+    "review20": {
+      "title": "Well-Designed and Practical",
+      "name": "JEAN-PASCAL",
+      "text": "The quality seems to be there, very practical by its modularity, to be seen for use. I only put 4 stars due to the fixation by Velcro, to assess once loaded. I recommend",
+      "date": "15.07.2023",
+      "rating": "4"
+    },
+    "review21": {
+      "title": "Excellent Feedback, Fast Delivery",
+      "name": "Troels Kristens",
+      "text": "Really good for the price and fast delivery.",
+      "date": "28.06.2023",
+      "rating": "5"
+    },
+    "review22": {
+      "title": "Beautifully Designed and Convenient",
+      "name": "Rob",
+      "text": "Good nice beautifully priced bike. Feels solid. Neatly in accordance with home delivery. Top!",
+      "date": "23.06.2023",
+      "rating": "5"
+    }
+  },
   "bikes": {
     "weight_label": "Weight",
     "gear_label": "Gear",
