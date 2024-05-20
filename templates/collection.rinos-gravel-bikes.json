@@ -1,13 +1,5 @@
 {
   "sections": {
-    "banner": {
-      "type": "main-collection-banner",
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "scheme-1"
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -32,11 +24,19 @@
       "type": "rinos-comparison-1",
       "settings": {
       }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
     }
   },
   "order": [
-    "banner",
     "product-grid",
-    "rinos_comparison_1_7Xi7n9"
+    "rinos_comparison_1_7Xi7n9",
+    "banner"
   ]
 }
