@@ -29,13 +29,6 @@
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
         "icon_with_text_yTGrTW": {
           "type": "icon-with-text",
           "settings": {
@@ -46,6 +39,13 @@
             "heading_2": "",
             "icon_3": "none",
             "heading_3": ""
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
           }
         },
         "quantity_selector": {
@@ -76,8 +76,8 @@
         "vendor",
         "title",
         "price",
-        "variant_picker",
         "icon_with_text_yTGrTW",
+        "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
