@@ -36,6 +36,18 @@
             "swatch_shape": "circle"
           }
         },
+        "icon_with_text_yTGrTW": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "stopwatch",
+            "heading_1": "2 years warranty",
+            "icon_2": "none",
+            "heading_2": "",
+            "icon_3": "none",
+            "heading_3": ""
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -46,11 +58,6 @@
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
-          }
-        },
-        "warrenty-banner": {
-          "type": "warrenty-banner",
-          "settings":{
           }
         },
         "description": {
@@ -70,9 +77,9 @@
         "title",
         "price",
         "variant_picker",
+        "icon_with_text_yTGrTW",
         "quantity_selector",
         "buy_buttons",
-        "warrenty-banner",
         "description",
         "share"
       ],
