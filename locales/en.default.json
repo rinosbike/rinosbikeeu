@@ -519,5 +519,80 @@
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
     }
+  },
+  "bikes": {
+    "weight_label": "Weight",
+    "gear_label": "Gear",
+    "gears_label": "Gears",
+    "frame_label": "Frame",
+    "frameSize_label": "Frame Size",
+    "brakes_label": "Brakes",
+    "wheelSize_label": "Wheel Size",
+    "rims_label": "Rims",
+    "sandman1": {
+      "title": "Sandman 1.0",
+      "description": "Good and Affordable",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/IMG_0133.png?v=1714209511",
+      "weight": "9.8kg",
+      "gear": "Shimano SORA",
+      "gears": "18",
+      "frame": "TORAY T800 Carbon",
+      "frameSize": "optimized for riders between 175-195 cm",
+      "brakes": "Mechanical",
+      "wheelSize": "28 inches",
+      "rims": "Aluminum"
+    },
+    "sandman3": {
+      "title": "Sandman 3.0",
+      "description": "The All-Rounder",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/IMG_0170.png?v=1714209510",
+      "weight": "9.8kg",
+      "gear": "Shimano 105",
+      "gears": "22",
+      "frame": "TORAY T800 Carbon",
+      "frameSize": "optimized for riders between 175-195 cm",
+      "brakes": "Mechanical",
+      "wheelSize": "28 inches",
+      "rims": "Aluminum"
+    },
+    "sandman4": {
+      "title": "Sandman 4.0",
+      "description": "Our Bestseller",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/sandman4-6-changed.webp?v=1716034595",
+      "weight": "9.8kg",
+      "gear": "Shimano GRX 400",
+      "gears": "20",
+      "frame": "TORAY T800 Carbon",
+      "frameSize": "optimized for riders between 175-195 cm",
+      "brakes": "Hydraulic",
+      "wheelSize": "28 inches",
+      "rims": "Aluminum"
+    },
+    "sandman5": {
+      "title": "Sandman 5.0",
+      "description": "Ultimate Performance",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/rinos-carbon-gravel-bike-sandman50-shimano-r8000-ultegra_2.webp?v=1691264716",
+      "weight": "8.3kg",
+      "gear": "Shimano Ultegra",
+      "gears": "22",
+      "frame": "TORAY T800 Carbon",
+      "frameSize": "optimized for riders between 175-195 cm",
+      "brakes": "Mechanical",
+      "wheelSize": "28 inches",
+      "rims": "Carbon"
+    },
+    "sandman6": {
+      "title": "Sandman 6.0",
+      "description": "The Best of Its Kind",
+      "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0657\/8415\/2277\/files\/sandman4-6-changed.webp?v=1716034595",
+      "weight": "9.8kg",
+      "gear": "Shimano GRX 600",
+      "gears": "22",
+      "frame": "TORAY T800 Carbon",
+      "frameSize": "optimized for riders between 175-195 cm",
+      "brakes": "Hydraulic",
+      "wheelSize": "28 inches",
+      "rims": "Aluminum"
+    }
   }
 }
