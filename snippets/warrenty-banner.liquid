@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+    
+    .section-1-container{
+        margin-top: 5px;
+        max-width: 250px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    
+    }
+    
+    .icon-10{
+        padding-top: 19px;
+        padding-left: 20px;
+    }
+    
+    .icon-20{
+        height: 30px;
+        width: auto;
+    }
+    
+    .text-10{
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        font-family: sans-serif;
+    }
+    
+    .div-text-20{
+        margin-left: -10px;
+        padding-top: 1px;
+    }
+    
+    </style>
+    <body>
+        <section class="section-1">
+            <div class="section-1-container">
+                <div class="icon-10">
+                    <img class="icon-20" src="https://cdn.shopify.com/s/files/1/0657/8415/2277/files/clock.arrow.circlepath_10x_2d3128b5-2db0-418a-9850-59e8acc047ad.png?v=1706298857">
+                </div>
+                <div class="div-text-20">
+                    <p class="text-10">2 Jahre Garantie</p>
+                </div>
+            </div>
+        </section>
+    </body>
+    </html>
+
+    {% schema %}
+    {
+      "presets": [
+          {
+              "name": "Warrenty-banner",
+              "category": "Custom"
+          }
+      ]
+  }
+  {% endschema %}
