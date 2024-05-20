@@ -99,6 +99,11 @@
         "padding_bottom": 12
       }
     },
+    "review_section_small_fKwkg6": {
+      "type": "review-section-small",
+      "custom_css": [".review-section {margin-bottom: 25px;}"],
+      "settings": {}
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -121,6 +126,7 @@
   "order": [
     "conversionbanner_2_976634",
     "main",
+    "review_section_small_fKwkg6",
     "related-products"
   ]
 }
