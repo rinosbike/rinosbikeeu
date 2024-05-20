@@ -48,6 +48,11 @@
             "show_gift_card_recipient": true
           }
         },
+        "warrenty-banner": {
+          "type": "warrenty-banner",
+          "settings":{
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
