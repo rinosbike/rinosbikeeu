@@ -20,6 +20,11 @@
         "padding_bottom": 36
       }
     },
+    "rinos_comparison_table_road_kF9rRH": {
+      "type": "rinos-comparison-table-road",
+      "settings": {
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -27,16 +32,11 @@
         "show_collection_image": false,
         "color_scheme": "scheme-1"
       }
-    },
-    "rinos_comparison_table_road_kF9rRH": {
-      "type": "rinos-comparison-table-road",
-      "settings": {
-      }
     }
   },
   "order": [
     "product-grid",
-    "banner",
-    "rinos_comparison_table_road_kF9rRH"
+    "rinos_comparison_table_road_kF9rRH",
+    "banner"
   ]
 }
