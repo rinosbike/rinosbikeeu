@@ -38,13 +38,6 @@
     "announcement_bar_LctY6d": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_YRcBr6": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
         "announcement_x4TXC4": {
           "type": "announcement",
           "settings": {
@@ -54,7 +47,6 @@
         }
       },
       "block_order": [
-        "announcement_YRcBr6",
         "announcement_x4TXC4"
       ],
       "settings": {
