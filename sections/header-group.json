@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -9,7 +18,7 @@
           "type": "announcement",
           "settings": {
             "text": "See Our Reviews on Trustpilot(130+) 4.5*",
-            "link": "https:\/\/uk.trustpilot.com\/review\/rinosbike.eu"
+            "link": "https://uk.trustpilot.com/review/rinosbike.eu"
           }
         }
       },
@@ -29,15 +38,23 @@
     "announcement_bar_LctY6d": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_YRcBr6": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        },
         "announcement_x4TXC4": {
           "type": "announcement",
           "settings": {
-            "text": "2024 NEW MODELS | Safe up to 300€",
+            "text": "2025 NEW MODELS | Safe up to 300€",
             "link": ""
           }
         }
       },
       "block_order": [
+        "announcement_YRcBr6",
         "announcement_x4TXC4"
       ],
       "settings": {
