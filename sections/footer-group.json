@@ -34,12 +34,20 @@
             "heading": "",
             "menu": "legal-information"
           }
+        },
+        "link_list_znNijK": {
+          "type": "link_list",
+          "settings": {
+            "heading": "FAQ",
+            "menu": "faq"
+          }
         }
       },
       "block_order": [
         "link_list_dkX4qH",
         "link_list_P8WACb",
-        "link_list_V3Chxi"
+        "link_list_V3Chxi",
+        "link_list_znNijK"
       ],
       "settings": {
         "color_scheme": "scheme-1",
