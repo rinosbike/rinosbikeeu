@@ -1,0 +1,220 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "collapsible_content_XmhYQB": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_yPYb9G": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much assembly is required when I receive my bike?",
+            "icon": "question_mark",
+            "row_content": "<p>Our bikes arrive 90% assembled. You’ll only need to attach the front wheel, seatpost, and pedals (included). Basic tools are included, and we also provide a setup video for reference.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UAjFct": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are tools included in the box?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, a basic multitool or allen key (4,5,6mm provided) is included for final assembly steps like tightening bolts and adjusting components.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hG9HwD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are pedals included?",
+            "icon": "question_mark",
+            "row_content": "<p>The pedals are not included with the bike, but we offer many options from our trusted partner RockBros. You can find such products on rinosbike.eu or contact us Via info@rinosbike.eu</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nrB8EN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is the bike packaged for shipping?",
+            "icon": "question_mark",
+            "row_content": "<p>Each bike is securely packed in a reinforced cardboard box with internal foam protection to prevent scratches or damage during transport.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yg9jHc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I request the bike to be pre-assembled?",
+            "icon": "question_mark",
+            "row_content": "<p>Can contact us at info@rinosbike.eu. However, most customers without mechanical knowledge can complete assembly in under 5 minutes.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Af8jLJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do brakes/derailleurs arrive pre-adjusted, or should I expect to index gears and re-center calipers?",
+            "icon": "question_mark",
+            "row_content": "<p>Brakes and derailleurs arrive pre-adjusted and tested for full seamless functionality. No major adjustment is needed.<br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_TFYEed": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are the wheels pre-trued out of the box, or should I expect minor spoke adjustments after the first rides?",
+            "icon": "question_mark",
+            "row_content": "<p>Our mechanics are using TRUDI technologies truing machine, so the aluminium wheels are destressed and adjusted by hand to almost perfect dishing max 0.2mm lateral and radial deviation, better than most wheels directly out of bike factories.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_qceFdA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you offer an optional “fully assembled” delivery service?",
+            "icon": "question_mark",
+            "row_content": "<p>We currently offer this service depending on geographical regions, contact us at info@rinosbike.eu. Although assembling the remaining parts of the bike can take just 10 minutes. Only the seatpost and front wheel have to be inserted. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fz6zJ7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the bike set up tubeless from factory (tape/valves/sealant), or delivered with tubes?",
+            "icon": "question_mark",
+            "row_content": "<p>The rims are tubeless compatible, but the tape/sealant/valve have to be integrated by your own. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_inL6RC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the recommended torque values for cockpit, seatpost, thru-axles, and rotors and where can I find them?",
+            "icon": "question_mark",
+            "row_content": "<p>You can refer to our assembly video or our torque chart.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RQFxky": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are spacers included for stem height changes? What’s the safe maximum stack/steerer spacer height?",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_G4V6yi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What’s the recommended first-service interval for safety checks (e.g., bolts, spokes, headset)?",
+            "icon": "question_mark",
+            "row_content": "<p>We recommend it to be checked once per year and even more often depending on the intensity of use.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3UDbaw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do you provide an assembly video or step-by-step guide for my exact model?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, each of our major models from gravel to road bikes have their own assembly video. </p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_yPYb9G",
+        "collapsible_row_UAjFct",
+        "collapsible_row_hG9HwD",
+        "collapsible_row_nrB8EN",
+        "collapsible_row_yg9jHc",
+        "collapsible_row_Af8jLJ",
+        "collapsible_row_TFYEed",
+        "collapsible_row_qceFdA",
+        "collapsible_row_fz6zJ7",
+        "collapsible_row_inL6RC",
+        "collapsible_row_RQFxky",
+        "collapsible_row_G4V6yi",
+        "collapsible_row_3UDbaw"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_VgGpR4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FfEQJM": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_nWWFLH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our mission is always to answer any questions that you may have. We care about honesty and openness in any aspect of our work. If you have any further questions that this FAQ does not answer please contact us Via info@rinosbike.eu or the contact form bellow. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FfEQJM",
+        "text_nWWFLH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "contact_form_RyXPCd": {
+      "type": "contact-form",
+      "name": "t:sections.contact-form.presets.name",
+      "settings": {
+        "heading": "Contact form",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "collapsible_content_XmhYQB",
+    "rich_text_VgGpR4",
+    "contact_form_RyXPCd"
+  ]
+}
