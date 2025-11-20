@@ -1,5 +1,123 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "rich_text_JYryx4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jWg79x": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Rinos Odin Road series</strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jWg79x"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "trust_marquee_KyHNqc": {
+      "type": "trust-marquee",
+      "name": "Trust Marquee Banner",
+      "settings": {
+        "bg_color": "#000000",
+        "text_color": "#FFFFFF",
+        "font_size": 14,
+        "font_weight": "500",
+        "text_transform": "uppercase",
+        "speed": 30,
+        "padding_vertical": 12
+      }
+    },
+    "odinvideow_49bqad": {
+      "type": "odinvideow",
+      "name": "Carousel",
+      "settings": {
+        "vertical_alignment": "center",
+        "gap": 40,
+        "container_width": 1400,
+        "container_padding": 20,
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "video_label": "Featured Video",
+        "carousel_label": "Compare Models",
+        "carousel_hint_text": "Swipe or use arrows to compare",
+        "featured_badge_text": "RECOMMENDED",
+        "buy_button_text": "BUY",
+        "video_type": "file",
+        "youtube_id": "",
+        "vimeo_id": "",
+        "video_file": "https://cdn.shopify.com/videos/c/o/v/26c3fa2fe8e54076bd857a42d35b15f6.mp4",
+        "video_width_percent": 40,
+        "video_min_width": 350,
+        "video_max_width": 600,
+        "video_aspect_ratio": 175,
+        "video_border_radius": 8,
+        "video_shadow": true,
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "controls": false,
+        "hide_controls": false,
+        "cards_width": 420,
+        "card_padding": 25,
+        "card_border_radius": 8,
+        "card_image_height": 200,
+        "card_image_margin": 20,
+        "card_title_size": 16,
+        "cards_gap": 20,
+        "spec_label_size": 11,
+        "spec_value_size": 13,
+        "spec_padding": 8,
+        "specs_gap": 12,
+        "odin1_commentary": "Perfect for beginners and casual riders.",
+        "odin3_commentary": "Ideal for intermediate riders.",
+        "odin4_commentary": "Our top pick for serious enthusiasts.",
+        "odin6_0_commentary": "Great for adventurers.",
+        "odin6_1_commentary": "Perfect for long-distance riders.",
+        "odin7_1_commentary": "The ultimate choice for professionals.",
+        "button_size": 44,
+        "controls_gap": 20,
+        "dots_gap": 8,
+        "mobile_breakpoint": 768,
+        "features_label": "Why Choose Rinos",
+        "features_label_size": 18,
+        "features_width": 280,
+        "features_gap": 24,
+        "feature_icon_size": 48,
+        "feature_icon_gap": 16,
+        "feature_icon_radius": 8,
+        "feature_icon_bg": "#f5f5f5",
+        "feature_icon_color": "#000000",
+        "feature_title_size": 14,
+        "feature_text_size": 13,
+        "feature_1_title": "UCI Certified",
+        "feature_1_text": "Official UCI certification for competitive racing",
+        "feature_2_title": "2-Year Warranty",
+        "feature_2_text": "Comprehensive coverage on all components",
+        "feature_3_title": "Free EU Shipping",
+        "feature_3_text": "Fast and free delivery across Europe",
+        "feature_4_title": "German Engineering",
+        "feature_4_text": "Precision-crafted frames designed in Germany"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -22,21 +140,43 @@
     },
     "rinos_comparison_table_road_kF9rRH": {
       "type": "rinos-comparison-table-road",
-      "settings": {
-      }
+      "settings": {}
     },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
         "color_scheme": "scheme-1"
       }
+    },
+    "trudi_widget_UbQ7tP": {
+      "type": "Trudi-widget",
+      "name": "Rinos TRUDI Announcement",
+      "settings": {
+        "header": "Rinos x TRUDI. Perfect wheels in all your Rinos",
+        "subtext_1": "Better wheels, same fair price. We just added Berd's TRUDI system to our workshop—not to charge you more, but to deliver pro-level wheel builds on every bike.",
+        "button_text": "Discover the Full Blog",
+        "button_link": "/blogs/news/rinos-invests-in-trudi-better-wheels-same-fair-price"
+      }
+    },
+    "odin_sizing_guide_Cy4KcW": {
+      "type": "odin-sizing-guide",
+      "name": "ODIN Sizing Guide Compact",
+      "settings": {
+        "contact_url": "/pages/contact"
+      }
     }
   },
   "order": [
+    "rich_text_JYryx4",
+    "trust_marquee_KyHNqc",
+    "odinvideow_49bqad",
     "product-grid",
     "rinos_comparison_table_road_kF9rRH",
-    "banner"
+    "banner",
+    "trudi_widget_UbQ7tP",
+    "odin_sizing_guide_Cy4KcW"
   ]
 }
