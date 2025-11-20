@@ -9,6 +9,128 @@
  */
 {
   "sections": {
+    "image_banner_Hhqkzb": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_FzFkBg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Welcome to Gravel.</strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FzFkBg"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/att.uph39nUk7j_KQqCRfb7twp3kPsDHpugDhw9HqI8D3jM_1.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "video_javi_w_AYUMDQ": {
+      "type": "video-javi-w",
+      "name": "Video + Text Feature",
+      "settings": {
+        "layout": "left",
+        "vertical_alignment": "center",
+        "gap": 40,
+        "container_width": 1200,
+        "container_padding": 20,
+        "background_color": "#121212",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "video_type": "file",
+        "youtube_id": "",
+        "vimeo_id": "",
+        "video_file": "https://cdn.shopify.com/videos/c/o/v/f29c2f536df944c98aa3650b2befd646.mp4",
+        "video_width_percent": 40,
+        "video_min_width": 300,
+        "video_max_width": 500,
+        "video_aspect_ratio": 175,
+        "video_border_radius": 8,
+        "video_shadow": true,
+        "autoplay": true,
+        "loop": true,
+        "muted": true,
+        "controls": true,
+        "hide_controls": false,
+        "eyebrow_text": "",
+        "heading": "The Rinos Sandman",
+        "description": "<p>Every Sandman is built from the same DNA: a <strong>Toray T800 carbon frame</strong>, optimized gravel geometry, and wide 28”/700c wheels for all-terrain control. The difference lies in the <strong>drivetrain, brakes, and wheels</strong> — giving you a clear path from your first gravel bike to pro-level electronic performance.</p><p>Ready to start your new adventure? Here's a quick overview: </p><ul><li><strong>Sandman 1 – Affordable Entry to Gravel</strong><br/>Shimano Sora 2×9, mechanical disc brakes, aluminum wheels. Perfect for new riders or those who want carbon performance at the lowest price point.</li></ul><p></p><ul><li><strong>Sandman 3 – The All-Rounder</strong><br/>Shimano 105 2×11, mechanical disc brakes. Reliable, versatile, and ideal for fitness, commuting, or weekend adventures.</li></ul><p></p><ul><li><strong>Sandman 4 – Our Bestseller</strong><br/>Shimano GRX 400 2×10 with <strong>hydraulic disc brakes</strong>. Built for riders who want gravel-specific gearing and superior stopping power. Balanced, capable, and confidence-inspiring.</li></ul><p></p><ul><li><strong>Sandman 6 – An upgrade for longer trips</strong><br/>Shimano GRX 600 2×11 with hydraulic disc brakes. Gravel-specific groupset with a wide gear range. The go-to bikepacking and endurance setup for serious explorers.</li></ul><p></p><ul><li><strong>Sandman 7 – Top of the Line Mechanical</strong><br/>Shimano GRX 820 2×12, hydraulic disc brakes. Cutting-edge gravel technology with expanded gearing, lighter shifting, and all-terrain precision.</li></ul><p></p><ul><li><strong>Sandman 8 – Electronic Adventure</strong><br/>Shimano 105 Di2 2×12 with <strong>40mm deep carbon wheels</strong>. Electronic shifting, aerodynamic advantage, and unmatched reliability. The flagship Sandman for riders who want <em>the best of both gravel and road worlds</em>.</li></ul><p></p>",
+        "button_text": "",
+        "button_link": "",
+        "text_alignment": "left",
+        "eyebrow_size": 21,
+        "eyebrow_color": "#ffffff",
+        "eyebrow_weight": 600,
+        "eyebrow_transform": "uppercase",
+        "eyebrow_spacing": 1,
+        "eyebrow_margin": 10,
+        "heading_tag": "h2",
+        "heading_size": 42,
+        "heading_color": "#f3f3f3",
+        "heading_weight": 700,
+        "heading_line_height": 1.2,
+        "heading_margin": 20,
+        "description_size": 16,
+        "description_color": "#f3f3f3",
+        "description_line_height": 1.6,
+        "description_margin": 30,
+        "button_padding_vertical": 12,
+        "button_padding_horizontal": 32,
+        "button_bg_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_hover_bg": "#333333",
+        "button_hover_text": "#ffffff",
+        "button_font_size": 16,
+        "button_font_weight": 600,
+        "button_border_radius": 4,
+        "button_border_width": 0,
+        "button_border_color": "#000000",
+        "mobile_breakpoint": 768,
+        "mobile_gap": 30,
+        "mobile_text_alignment": "left",
+        "mobile_heading_size": 32,
+        "mobile_description_size": 14
+      }
+    },
+    "rinos_comparison_1_7Xi7n9": {
+      "type": "rinos-comparison-1",
+      "settings": {
+        "show_header": true,
+        "header_title": "Compare Our Sandman Models",
+        "header_description": "Find the perfect gravel bike for your adventure",
+        "sandman1_handle": "sandman-1",
+        "sandman3_handle": "sandman-3",
+        "sandman4_handle": "sandman-4",
+        "sandman4_featured": true,
+        "sandman5_handle": "sandman-5",
+        "sandman6_handle": "sandman-6",
+        "sandman7_handle": "sandman-7",
+        "sandman8_handle": "sandman-8",
+        "sandman8_featured": false,
+        "sandman8_name": "Sandman 8",
+        "sandman8_weight": "9.4kg",
+        "sandman8_gear": "Shimano 105 Di2",
+        "sandman8_gears": "24",
+        "sandman8_frame": "Toray T800 Carbon",
+        "sandman8_frameSize": "XS, S, M, L",
+        "sandman8_brakes": "Hydraulic Disc",
+        "sandman8_wheelSize": "700c",
+        "sandman8_rims": "Aluminum"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -52,34 +174,9 @@
         "overlay_bottom_opacity": 40
       }
     },
-    "rinos_comparison_1_7Xi7n9": {
-      "type": "rinos-comparison-1",
-      "settings": {
-        "show_header": true,
-        "header_title": "Compare Our Sandman Models",
-        "header_description": "Find the perfect gravel bike for your adventure",
-        "sandman1_handle": "sandman-1",
-        "sandman3_handle": "sandman-3",
-        "sandman4_handle": "sandman-4",
-        "sandman4_featured": true,
-        "sandman5_handle": "sandman-5",
-        "sandman6_handle": "sandman-6",
-        "sandman7_handle": "sandman-7",
-        "sandman8_handle": "sandman-8",
-        "sandman8_featured": false,
-        "sandman8_name": "Sandman 8",
-        "sandman8_weight": "9.4kg",
-        "sandman8_gear": "Shimano 105 Di2",
-        "sandman8_gears": "24",
-        "sandman8_frame": "Toray T800 Carbon",
-        "sandman8_frameSize": "XS, S, M, L",
-        "sandman8_brakes": "Hydraulic Disc",
-        "sandman8_wheelSize": "700c",
-        "sandman8_rims": "Aluminum"
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -95,13 +192,44 @@
         "button_text": "Discover the Full Blog",
         "button_link": "/blogs/news/rinos-invests-in-trudi-better-wheels-same-fair-price"
       }
+    },
+    "iso_video_section_fGW7ea": {
+      "type": "ISO-Video-section",
+      "name": "Frame Test Multilingual",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "vimeo_video_id": "1101897970",
+        "info_title": "",
+        "info_description": "",
+        "spec_1_label": "",
+        "spec_1_value": "",
+        "spec_2_label": "",
+        "spec_2_value": "",
+        "spec_3_label": "",
+        "spec_3_value": "",
+        "cta_text": "",
+        "cta_url": "",
+        "show_stats": true,
+        "stat_1_number": "",
+        "stat_1_label": "",
+        "stat_2_number": "",
+        "stat_2_label": "",
+        "stat_3_number": "",
+        "stat_3_label": "",
+        "stat_4_number": "",
+        "stat_4_label": ""
+      }
     }
   },
   "order": [
+    "image_banner_Hhqkzb",
+    "video_javi_w_AYUMDQ",
+    "rinos_comparison_1_7Xi7n9",
     "product-grid",
     "herobannererika_8JQyhw",
-    "rinos_comparison_1_7Xi7n9",
     "banner",
-    "trudi_widget_kKgmYg"
+    "trudi_widget_kKgmYg",
+    "iso_video_section_fGW7ea"
   ]
 }
