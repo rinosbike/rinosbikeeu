@@ -1,0 +1,490 @@
+{%- comment -%}
+  Multilingual Frame Test Video Section Javi
+  Supports: EN, PL, DE, ES, FR, BG
+{%- endcomment -%}
+
+{%- liquid
+  assign current_locale = request.locale.iso_code
+  
+  # English (default)
+  assign title_en = "Engineered for Endurance"
+  assign subtitle_en = "Every frame undergoes rigorous testing to ensure reliability you can depend on."
+  assign info_title_en = "Built Different"
+  assign info_description_en = "Our approach to frame construction prioritizes long-term durability through careful material selection and precise engineering."
+  assign spec_1_label_en = "Material"
+  assign spec_1_value_en = "T1000, T800, T700 Carbon Fiber"
+  assign spec_2_label_en = "Construction"
+  assign spec_2_value_en = "TIG Welded"
+  assign spec_3_label_en = "Testing"
+  assign spec_3_value_en = "Rigorous Standards"
+  assign cta_text_en = "Learn More"
+  assign stat_1_number_en = "10,000+"
+  assign stat_1_label_en = "Cycles Tested"
+  assign stat_2_number_en = "ISO 4210"
+  assign stat_2_label_en = "Certified Standard"
+  assign stat_3_number_en = "5x"
+  assign stat_3_label_en = "Safety Factor"
+  assign stat_4_number_en = "2 Year"
+  assign stat_4_label_en = "Warranty"
+  
+  # Polish
+  assign title_pl = "Stworzone dla Wytrzymałości"
+  assign subtitle_pl = "Każda rama przechodzi rygorystyczne testy, aby zapewnić niezawodność, na której możesz polegać."
+  assign info_title_pl = "Zbudowane Inaczej"
+  assign info_description_pl = "Nasze podejście do konstrukcji ram stawia na pierwszym miejscu długotrwałą trwałość poprzez staranną selekcję materiałów i precyzyjną inżynierię."
+  assign spec_1_label_pl = "Materiał"
+  assign spec_1_value_pl = "Włókno węglowe T1000, T800, T700"
+  assign spec_2_label_pl = "Konstrukcja"
+  assign spec_2_value_pl = "Spawanie TIG"
+  assign spec_3_label_pl = "Testowanie"
+  assign spec_3_value_pl = "Rygorystyczne Standardy"
+  assign cta_text_pl = "Dowiedz Się Więcej"
+  assign stat_1_number_pl = "10 000+"
+  assign stat_1_label_pl = "Cykli Testowych"
+  assign stat_2_number_pl = "ISO 4210"
+  assign stat_2_label_pl = "Certyfikowany Standard"
+  assign stat_3_number_pl = "5x"
+  assign stat_3_label_pl = "Współczynnik Bezpieczeństwa"
+  assign stat_4_number_pl = "2 Lata"
+  assign stat_4_label_pl = "Gwarancja"
+  
+  # German
+  assign title_de = "Für Ausdauer Entwickelt"
+  assign subtitle_de = "Jeder Rahmen durchläuft rigorose Tests, um Zuverlässigkeit zu gewährleisten, auf die Sie sich verlassen können."
+  assign info_title_de = "Anders Gebaut"
+  assign info_description_de = "Unser Ansatz zur Rahmenkonstruktion priorisiert langfristige Haltbarkeit durch sorgfältige Materialauswahl und präzise Technik."
+  assign spec_1_label_de = "Material"
+  assign spec_1_value_de = "T1000, T800, T700 Kohlefaser"
+  assign spec_2_label_de = "Konstruktion"
+  assign spec_2_value_de = "WIG-Geschweißt"
+  assign spec_3_label_de = "Prüfung"
+  assign spec_3_value_de = "Strenge Standards"
+  assign cta_text_de = "Mehr Erfahren"
+  assign stat_1_number_de = "10.000+"
+  assign stat_1_label_de = "Testzyklen"
+  assign stat_2_number_de = "ISO 4210"
+  assign stat_2_label_de = "Zertifizierter Standard"
+  assign stat_3_number_de = "5x"
+  assign stat_3_label_de = "Sicherheitsfaktor"
+  assign stat_4_number_de = "2 Jahre"
+  assign stat_4_label_de = "Garantie"
+  
+  # Spanish
+  assign title_es = "Diseñado para la Resistencia"
+  assign subtitle_es = "Cada cuadro pasa por pruebas rigurosas para asegurar la confiabilidad en la que puedes depender."
+  assign info_title_es = "Construido Diferente"
+  assign info_description_es = "Nuestro enfoque de construcción de cuadros prioriza la durabilidad a largo plazo mediante la selección cuidadosa de materiales y ingeniería precisa."
+  assign spec_1_label_es = "Material"
+  assign spec_1_value_es = "Fibra de Carbono T1000, T800, T700"
+  assign spec_2_label_es = "Construcción"
+  assign spec_2_value_es = "Soldadura TIG"
+  assign spec_3_label_es = "Pruebas"
+  assign spec_3_value_es = "Estándares Rigurosos"
+  assign cta_text_es = "Saber Más"
+  assign stat_1_number_es = "10,000+"
+  assign stat_1_label_es = "Ciclos de Prueba"
+  assign stat_2_number_es = "ISO 4210"
+  assign stat_2_label_es = "Estándar Certificado"
+  assign stat_3_number_es = "5x"
+  assign stat_3_label_es = "Factor de Seguridad"
+  assign stat_4_number_es = "2 Años"
+  assign stat_4_label_es = "Garantía"
+  
+  # French
+  assign title_fr = "Conçu pour l'Endurance"
+  assign subtitle_fr = "Chaque cadre subit des tests rigoureux pour assurer une fiabilité sur laquelle vous pouvez compter."
+  assign info_title_fr = "Construit Différemment"
+  assign info_description_fr = "Notre approche de construction de cadres privilégie la durabilité à long terme grâce à une sélection minutieuse des matériaux et une ingénierie précise."
+  assign spec_1_label_fr = "Matériau"
+  assign spec_1_value_fr = "Fibre de Carbone T1000, T800, T700"
+  assign spec_2_label_fr = "Construction"
+  assign spec_2_value_fr = "Soudage TIG"
+  assign spec_3_label_fr = "Tests"
+  assign spec_3_value_fr = "Standards Rigoureux"
+  assign cta_text_fr = "En Savoir Plus"
+  assign stat_1_number_fr = "10 000+"
+  assign stat_1_label_fr = "Cycles Testés"
+  assign stat_2_number_fr = "ISO 4210"
+  assign stat_2_label_fr = "Standard Certifié"
+  assign stat_3_number_fr = "5x"
+  assign stat_3_label_fr = "Facteur de Sécurité"
+  assign stat_4_number_fr = "2 Ans"
+  assign stat_4_label_fr = "Garantie"
+  
+  # Bulgarian
+  assign title_bg = "Създаден за Издръжливост"
+  assign subtitle_bg = "Всяка рамка преминава през строги тестове, за да се гарантира надеждност, на която можете да разчитате."
+  assign info_title_bg = "Построен Различно"
+  assign info_description_bg = "Нашият подход към конструкцията на рамки приоритизира дългосрочната издръжливост чрез внимателен подбор на материали и прецизно инженерство."
+  assign spec_1_label_bg = "Материал"
+  assign spec_1_value_bg = "Въглеродни влакна T1000, T800, T700"
+  assign spec_2_label_bg = "Конструкция"
+  assign spec_2_value_bg = "TIG Заваряване"
+  assign spec_3_label_bg = "Тестване"
+  assign spec_3_value_bg = "Строги Стандарти"
+  assign cta_text_bg = "Научи Повече"
+  assign stat_1_number_bg = "10 000+"
+  assign stat_1_label_bg = "Тестови Цикъла"
+  assign stat_2_number_bg = "ISO 4210"
+  assign stat_2_label_bg = "Сертифициран Стандарт"
+  assign stat_3_number_bg = "5x"
+  assign stat_3_label_bg = "Коефициент на Безопасност"
+  assign stat_4_number_bg = "2 Години"
+  assign stat_4_label_bg = "Гаранция"
+  
+  # Select translations based on current locale
+  case current_locale
+    when 'pl'
+      assign title_default = title_pl
+      assign subtitle_default = subtitle_pl
+      assign info_title_default = info_title_pl
+      assign info_description_default = info_description_pl
+      assign spec_1_label_default = spec_1_label_pl
+      assign spec_1_value_default = spec_1_value_pl
+      assign spec_2_label_default = spec_2_label_pl
+      assign spec_2_value_default = spec_2_value_pl
+      assign spec_3_label_default = spec_3_label_pl
+      assign spec_3_value_default = spec_3_value_pl
+      assign cta_text_default = cta_text_pl
+      assign stat_1_number_default = stat_1_number_pl
+      assign stat_1_label_default = stat_1_label_pl
+      assign stat_2_number_default = stat_2_number_pl
+      assign stat_2_label_default = stat_2_label_pl
+      assign stat_3_number_default = stat_3_number_pl
+      assign stat_3_label_default = stat_3_label_pl
+      assign stat_4_number_default = stat_4_number_pl
+      assign stat_4_label_default = stat_4_label_pl
+    when 'de'
+      assign title_default = title_de
+      assign subtitle_default = subtitle_de
+      assign info_title_default = info_title_de
+      assign info_description_default = info_description_de
+      assign spec_1_label_default = spec_1_label_de
+      assign spec_1_value_default = spec_1_value_de
+      assign spec_2_label_default = spec_2_label_de
+      assign spec_2_value_default = spec_2_value_de
+      assign spec_3_label_default = spec_3_label_de
+      assign spec_3_value_default = spec_3_value_de
+      assign cta_text_default = cta_text_de
+      assign stat_1_number_default = stat_1_number_de
+      assign stat_1_label_default = stat_1_label_de
+      assign stat_2_number_default = stat_2_number_de
+      assign stat_2_label_default = stat_2_label_de
+      assign stat_3_number_default = stat_3_number_de
+      assign stat_3_label_default = stat_3_label_de
+      assign stat_4_number_default = stat_4_number_de
+      assign stat_4_label_default = stat_4_label_de
+    when 'es'
+      assign title_default = title_es
+      assign subtitle_default = subtitle_es
+      assign info_title_default = info_title_es
+      assign info_description_default = info_description_es
+      assign spec_1_label_default = spec_1_label_es
+      assign spec_1_value_default = spec_1_value_es
+      assign spec_2_label_default = spec_2_label_es
+      assign spec_2_value_default = spec_2_value_es
+      assign spec_3_label_default = spec_3_label_es
+      assign spec_3_value_default = spec_3_value_es
+      assign cta_text_default = cta_text_es
+      assign stat_1_number_default = stat_1_number_es
+      assign stat_1_label_default = stat_1_label_es
+      assign stat_2_number_default = stat_2_number_es
+      assign stat_2_label_default = stat_2_label_es
+      assign stat_3_number_default = stat_3_number_es
+      assign stat_3_label_default = stat_3_label_es
+      assign stat_4_number_default = stat_4_number_es
+      assign stat_4_label_default = stat_4_label_es
+    when 'fr'
+      assign title_default = title_fr
+      assign subtitle_default = subtitle_fr
+      assign info_title_default = info_title_fr
+      assign info_description_default = info_description_fr
+      assign spec_1_label_default = spec_1_label_fr
+      assign spec_1_value_default = spec_1_value_fr
+      assign spec_2_label_default = spec_2_label_fr
+      assign spec_2_value_default = spec_2_value_fr
+      assign spec_3_label_default = spec_3_label_fr
+      assign spec_3_value_default = spec_3_value_fr
+      assign cta_text_default = cta_text_fr
+      assign stat_1_number_default = stat_1_number_fr
+      assign stat_1_label_default = stat_1_label_fr
+      assign stat_2_number_default = stat_2_number_fr
+      assign stat_2_label_default = stat_2_label_fr
+      assign stat_3_number_default = stat_3_number_fr
+      assign stat_3_label_default = stat_3_label_fr
+      assign stat_4_number_default = stat_4_number_fr
+      assign stat_4_label_default = stat_4_label_fr
+    when 'bg'
+      assign title_default = title_bg
+      assign subtitle_default = subtitle_bg
+      assign info_title_default = info_title_bg
+      assign info_description_default = info_description_bg
+      assign spec_1_label_default = spec_1_label_bg
+      assign spec_1_value_default = spec_1_value_bg
+      assign spec_2_label_default = spec_2_label_bg
+      assign spec_2_value_default = spec_2_value_bg
+      assign spec_3_label_default = spec_3_label_bg
+      assign spec_3_value_default = spec_3_value_bg
+      assign cta_text_default = cta_text_bg
+      assign stat_1_number_default = stat_1_number_bg
+      assign stat_1_label_default = stat_1_label_bg
+      assign stat_2_number_default = stat_2_number_bg
+      assign stat_2_label_default = stat_2_label_bg
+      assign stat_3_number_default = stat_3_number_bg
+      assign stat_3_label_default = stat_3_label_bg
+      assign stat_4_number_default = stat_4_number_bg
+      assign stat_4_label_default = stat_4_label_bg
+    else
+      assign title_default = title_en
+      assign subtitle_default = subtitle_en
+      assign info_title_default = info_title_en
+      assign info_description_default = info_description_en
+      assign spec_1_label_default = spec_1_label_en
+      assign spec_1_value_default = spec_1_value_en
+      assign spec_2_label_default = spec_2_label_en
+      assign spec_2_value_default = spec_2_value_en
+      assign spec_3_label_default = spec_3_label_en
+      assign spec_3_value_default = spec_3_value_en
+      assign cta_text_default = cta_text_en
+      assign stat_1_number_default = stat_1_number_en
+      assign stat_1_label_default = stat_1_label_en
+      assign stat_2_number_default = stat_2_number_en
+      assign stat_2_label_default = stat_2_label_en
+      assign stat_3_number_default = stat_3_number_en
+      assign stat_3_label_default = stat_3_label_en
+      assign stat_4_number_default = stat_4_number_en
+      assign stat_4_label_default = stat_4_label_en
+  endcase
+-%}
+
+<style>
+.frame-test{padding:100px 20px;background:#fff;font-family:'Helvetica Neue',sans-serif}
+.frame-test-container{max-width:1200px;margin:0 auto}
+.frame-test-header{text-align:center;margin-bottom:80px}
+.frame-test-title{font-size:3rem;font-weight:300;color:#1d1d1f;margin-bottom:30px;line-height:1.1;letter-spacing:-0.03em}
+.frame-test-subtitle{font-size:1.2rem;color:#86868b;max-width:500px;margin:0 auto;line-height:1.4;font-weight:300}
+.frame-test-content{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-bottom:80px}
+.frame-test-video-container{position:relative;width:100%;height:400px;background:#000;overflow:hidden}
+.frame-test-video{width:100%;height:100%;border:none;object-fit:cover}
+.frame-test-info h3{font-size:2rem;font-weight:300;color:#1d1d1f;margin-bottom:30px;line-height:1.2;letter-spacing:-0.02em}
+.frame-test-info p{font-size:1.1rem;color:#86868b;line-height:1.6;margin-bottom:40px;font-weight:300}
+.frame-test-specs{margin-bottom:50px}
+.frame-test-spec{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-bottom:1px solid #f5f5f7}
+.frame-test-spec:last-child{border-bottom:none}
+.frame-test-spec:first-child{border-top:1px solid #f5f5f7}
+.frame-test-spec-label{font-weight:400;color:#1d1d1f;font-size:1rem}
+.frame-test-spec-value{font-weight:300;color:#86868b;font-size:1rem}
+.frame-test-cta{display:inline-block;padding:15px 30px;background:#1d1d1f;color:#fff;text-decoration:none;font-weight:400;font-size:1rem;transition:all 0.3s ease;border:1px solid #1d1d1f}
+.frame-test-cta:hover{background:transparent;color:#1d1d1f}
+.frame-test-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:0;margin-top:60px;border-top:1px solid #f5f5f7}
+.frame-test-stat{text-align:center;padding:40px 20px;border-right:1px solid #f5f5f7}
+.frame-test-stat:last-child{border-right:none}
+.frame-test-stat-number{font-size:2.5rem;font-weight:200;color:#1d1d1f;margin-bottom:15px;letter-spacing:-0.02em}
+.frame-test-stat-label{font-size:1rem;color:#86868b;font-weight:300}
+.frame-test-video-placeholder{width:100%;height:100%;background:#f5f5f7;display:flex;align-items:center;justify-content:center;color:#86868b;font-size:1rem;font-weight:300}
+@media (max-width:768px){
+.frame-test{padding:80px 20px}
+.frame-test-title{font-size:2.5rem}
+.frame-test-content{grid-template-columns:1fr;gap:50px}
+.frame-test-video-container{height:300px}
+.frame-test-stats{grid-template-columns:1fr}
+.frame-test-stat{border-right:none;border-bottom:1px solid #f5f5f7;padding:30px 20px}
+.frame-test-stat:last-child{border-bottom:none}
+}
+</style>
+
+<section class="frame-test">
+  <div class="frame-test-container">
+    <div class="frame-test-header">
+      {% assign title_display = title_default %}
+      {% if section.settings.title != blank %}
+        {% assign title_display = section.settings.title %}
+      {% endif %}
+      <h2 class="frame-test-title">{{ title_display }}</h2>
+      
+      {% assign subtitle_display = subtitle_default %}
+      {% if section.settings.subtitle != blank %}
+        {% assign subtitle_display = section.settings.subtitle %}
+      {% endif %}
+      <p class="frame-test-subtitle">{{ subtitle_display }}</p>
+    </div>
+
+    <div class="frame-test-content">
+      <div class="frame-test-video-container">
+        {% if section.settings.vimeo_video_id != blank %}
+          <iframe 
+            class="frame-test-video"
+            src="https://player.vimeo.com/video/{{ section.settings.vimeo_video_id }}?badge=0&autopause=0&autoplay=1&muted=1&loop=1&controls=0&background=1&quality=auto"
+            frameborder="0"
+            loading="lazy"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        {% else %}
+          <div class="frame-test-video-placeholder">
+            <p>Add Vimeo video ID: 1101897970</p>
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="frame-test-info">
+        {% assign info_title_display = info_title_default %}
+        {% if section.settings.info_title != blank %}
+          {% assign info_title_display = section.settings.info_title %}
+        {% endif %}
+        <h3>{{ info_title_display }}</h3>
+        
+        {% assign info_description_display = info_description_default %}
+        {% if section.settings.info_description != blank %}
+          {% assign info_description_display = section.settings.info_description %}
+        {% endif %}
+        <p>{{ info_description_display }}</p>
+        
+        <div class="frame-test-specs">
+          {% assign spec_1_label_display = spec_1_label_default %}
+          {% assign spec_1_value_display = spec_1_value_default %}
+          {% if section.settings.spec_1_label != blank %}
+            {% assign spec_1_label_display = section.settings.spec_1_label %}
+          {% endif %}
+          {% if section.settings.spec_1_value != blank %}
+            {% assign spec_1_value_display = section.settings.spec_1_value %}
+          {% endif %}
+          
+          <div class="frame-test-spec">
+            <span class="frame-test-spec-label">{{ spec_1_label_display }}</span>
+            <span class="frame-test-spec-value">{{ spec_1_value_display }}</span>
+          </div>
+          
+          {% assign spec_2_label_display = spec_2_label_default %}
+          {% assign spec_2_value_display = spec_2_value_default %}
+          {% if section.settings.spec_2_label != blank %}
+            {% assign spec_2_label_display = section.settings.spec_2_label %}
+          {% endif %}
+          {% if section.settings.spec_2_value != blank %}
+            {% assign spec_2_value_display = section.settings.spec_2_value %}
+          {% endif %}
+          
+          <div class="frame-test-spec">
+            <span class="frame-test-spec-label">{{ spec_2_label_display }}</span>
+            <span class="frame-test-spec-value">{{ spec_2_value_display }}</span>
+          </div>
+          
+          {% assign spec_3_label_display = spec_3_label_default %}
+          {% assign spec_3_value_display = spec_3_value_default %}
+          {% if section.settings.spec_3_label != blank %}
+            {% assign spec_3_label_display = section.settings.spec_3_label %}
+          {% endif %}
+          {% if section.settings.spec_3_value != blank %}
+            {% assign spec_3_value_display = section.settings.spec_3_value %}
+          {% endif %}
+          
+          <div class="frame-test-spec">
+            <span class="frame-test-spec-label">{{ spec_3_label_display }}</span>
+            <span class="frame-test-spec-value">{{ spec_3_value_display }}</span>
+          </div>
+        </div>
+
+        {% assign cta_text_display = cta_text_default %}
+        {% if section.settings.cta_text != blank %}
+          {% assign cta_text_display = section.settings.cta_text %}
+        {% endif %}
+        {% if section.settings.cta_url != blank %}
+          <a href="{{ section.settings.cta_url }}" class="frame-test-cta">{{ cta_text_display }}</a>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if section.settings.show_stats %}
+      <div class="frame-test-stats">
+        {% assign stat_1_number_display = stat_1_number_default %}
+        {% assign stat_1_label_display = stat_1_label_default %}
+        {% if section.settings.stat_1_number != blank %}
+          {% assign stat_1_number_display = section.settings.stat_1_number %}
+        {% endif %}
+        {% if section.settings.stat_1_label != blank %}
+          {% assign stat_1_label_display = section.settings.stat_1_label %}
+        {% endif %}
+        
+        <div class="frame-test-stat">
+          <div class="frame-test-stat-number">{{ stat_1_number_display }}</div>
+          <div class="frame-test-stat-label">{{ stat_1_label_display }}</div>
+        </div>
+        
+        {% assign stat_2_number_display = stat_2_number_default %}
+        {% assign stat_2_label_display = stat_2_label_default %}
+        {% if section.settings.stat_2_number != blank %}
+          {% assign stat_2_number_display = section.settings.stat_2_number %}
+        {% endif %}
+        {% if section.settings.stat_2_label != blank %}
+          {% assign stat_2_label_display = section.settings.stat_2_label %}
+        {% endif %}
+        
+        <div class="frame-test-stat">
+          <div class="frame-test-stat-number">{{ stat_2_number_display }}</div>
+          <div class="frame-test-stat-label">{{ stat_2_label_display }}</div>
+        </div>
+        
+        {% assign stat_3_number_display = stat_3_number_default %}
+        {% assign stat_3_label_display = stat_3_label_default %}
+        {% if section.settings.stat_3_number != blank %}
+          {% assign stat_3_number_display = section.settings.stat_3_number %}
+        {% endif %}
+        {% if section.settings.stat_3_label != blank %}
+          {% assign stat_3_label_display = section.settings.stat_3_label %}
+        {% endif %}
+        
+        <div class="frame-test-stat">
+          <div class="frame-test-stat-number">{{ stat_3_number_display }}</div>
+          <div class="frame-test-stat-label">{{ stat_3_label_display }}</div>
+        </div>
+        
+        {% assign stat_4_number_display = stat_4_number_default %}
+        {% assign stat_4_label_display = stat_4_label_default %}
+        {% if section.settings.stat_4_number != blank %}
+          {% assign stat_4_number_display = section.settings.stat_4_number %}
+        {% endif %}
+        {% if section.settings.stat_4_label != blank %}
+          {% assign stat_4_label_display = section.settings.stat_4_label %}
+        {% endif %}
+        
+        <div class="frame-test-stat">
+          <div class="frame-test-stat-number">{{ stat_4_number_display }}</div>
+          <div class="frame-test-stat-label">{{ stat_4_label_display }}</div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Frame Test Multilingual",
+  "settings": [
+    {"type": "header", "content": "Translation Settings"},
+    {"type": "paragraph", "content": "Leave fields empty = Automatic translation | Fill fields = Override translation"},
+    {"type": "text", "id": "title", "label": "Title Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "textarea", "id": "subtitle", "label": "Subtitle Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "vimeo_video_id", "label": "Vimeo Video ID", "default": "1101897970"},
+    {"type": "text", "id": "info_title", "label": "Info Title Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "textarea", "id": "info_description", "label": "Info Description Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "spec_1_label", "label": "Spec 1 Label Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "spec_1_value", "label": "Spec 1 Value Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "spec_2_label", "label": "Spec 2 Label Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "spec_2_value", "label": "Spec 2 Value Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "spec_3_label", "label": "Spec 3 Label Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "spec_3_value", "label": "Spec 3 Value Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "cta_text", "label": "Button Text Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "url", "id": "cta_url", "label": "Button URL"},
+    {"type": "checkbox", "id": "show_stats", "label": "Show Statistics", "default": true},
+    {"type": "text", "id": "stat_1_number", "label": "Stat 1 Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "stat_1_label", "label": "Stat 1 Label Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "stat_2_number", "label": "Stat 2 Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "stat_2_label", "label": "Stat 2 Label Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "stat_3_number", "label": "Stat 3 Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "stat_3_label", "label": "Stat 3 Label Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "stat_4_number", "label": "Stat 4 Override", "info": "CLEAR THIS FIELD for auto-translation"},
+    {"type": "text", "id": "stat_4_label", "label": "Stat 4 Label Override", "info": "CLEAR THIS FIELD for auto-translation"}
+  ],
+  "presets": [{"name": "Frame Test Multilingual", "category": "Custom"}]
+}
+{% endschema %}
