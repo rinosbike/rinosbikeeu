@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -700,7 +709,7 @@
       "gear": "Shimano SORA",
       "gears": "18",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Mechanical",
       "wheelSize": "28 inches",
       "rims": "Aluminum"
@@ -713,7 +722,7 @@
       "gear": "Shimano 105",
       "gears": "22",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Mechanical",
       "wheelSize": "28 inches",
       "rims": "Aluminum"
@@ -726,7 +735,7 @@
       "gear": "Shimano GRX 400",
       "gears": "20",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Hydraulic",
       "wheelSize": "28 inches",
       "rims": "Aluminum"
@@ -739,7 +748,7 @@
       "gear": "Shimano Ultegra",
       "gears": "22",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Mechanical",
       "wheelSize": "28 inches",
       "rims": "Carbon"
@@ -752,7 +761,7 @@
       "gear": "Shimano GRX 600",
       "gears": "22",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Hydraulic",
       "wheelSize": "28 inches",
       "rims": "Aluminum"
@@ -765,7 +774,7 @@
       "gear": "Shimano GRX 820",
       "gears": "24",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Hydraulic",
       "wheelSize": "28 inches",
       "rims": "Aluminum"
@@ -774,11 +783,11 @@
       "title": "Odin 1",
       "description": "Good and Affordable",
       "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0720\/5794\/6377\/products\/1_00d58ab3-d3ab-4e73-a70c-5969e095121d.jpg?v=1705745069",
-      "weight": "9.8kg",
+      "weight": "8.8kg",
       "gear": "Shimano SORA",
       "gears": "18",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Mechanical",
       "wheelSize": "28 inches",
       "rims": "Aluminum"
@@ -787,11 +796,11 @@
       "title": "Odin 3",
       "description": "The All-Rounder",
       "image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0720\/5794\/6377\/products\/IMG_5673-PhotoRoom.jpg?v=1705744957",
-      "weight": "9.8kg",
+      "weight": "8.8kg",
       "gear": "Shimano 105",
       "gears": "22",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Mechanical",
       "wheelSize": "28 inches",
       "rims": "Aluminum"
@@ -800,11 +809,11 @@
       "title": "odin 4",
       "description": "our newcomer",
       "image": "https:\/\/rinosbike.eu\/cdn\/shop\/files\/IMG-6896.jpg?v=1716727167&width=4096",
-      "weight": "9.2kg",
+      "weight": "8.8 kg",
       "gear": "Shimano 105",
       "gears": "24",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Shimano 105 hydraulic",
       "wheelSize": "28 inches",
       "rims": "Aluminum"
@@ -817,11 +826,52 @@
       "gear": "Shimano Ultegra",
       "gears": "22",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Mechanical",
       "wheelSize": "28 inches",
       "rims": "Carbon"
     },
+"odin6_0": {
+      "title":       "Odin 6.0",
+      "description": "Electronic Precision",
+      "image":       "https://rinosbike.com/cdn/shop/files/ODIN6_1.png?v=1750755375&width=713",
+      "weight":      "8.8kg",
+      "gear":        "Shimano 105 Di2",
+      "gears":       "24",
+      "frame":       "TORAY T800 Carbon",
+      "frameSize":   "optimized for riders between 156–199 cm",
+      "brakes":      "Hydraulic Disc",
+      "wheelSize":   "28 inches",
+      "rims":        "Aluminium"
+    },
+    "odin6_1": {
+      "title":       "Odin 6.1",
+      "description": "Full Carbon Premium Bike",
+      "image":       "https://rinosbike.com/cdn/shop/files/1_edd71595-f78a-4465-9fa4-bc476b3d0b99.png?v=1751964247&width=713",
+      "weight":      "7.8kg",
+      "gear":        "Shimano 105 Di2",
+      "gears":       "24",
+      "frame":       "TORAY T800 Carbon",
+      "frameSize":   "optimized for riders between 156–199 cm",
+      "brakes":      "Hydraulic Disc",
+      "wheelSize":   "28 inches",
+      "rims":        "Carbon"
+    },
+    "odin7_1": {
+  "title": "Odin 7.1",
+  "description": "Di2 Ultegra // Full Carbon Wheels",
+  "image": "https://rinosbike.com/cdn/shop/files/Odin_7_-_1_0fb3d058-3213-4d7b-8571-0964574deac9.png?v=1758275105&width=1346",
+  "weight": "7.6kg",
+  "gear": "Shimano Ultegra Di2",
+  "gears": "24",
+  "frame": "TORAY T800 Carbon",
+  "frameSize": "optimized for riders between 156–199 cm",
+  "brakes": "Hydraulic Disc",
+  "wheelSize": "28 inches",
+  "rims": "Carbon"
+  },
+
+
     "gaia2": {
       "title": "Gaia 2",
       "description": "Cost-effective",
@@ -830,7 +880,7 @@
       "gear": "Shimano Deore",
       "gears": "12",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Hydraulic",
       "wheelSize": "29x2.25 inches",
       "rims": "Aluminum",
@@ -845,7 +895,7 @@
       "gear": "Shimano SLX",
       "gears": "12",
       "frame": "TORAY T800 Carbon",
-      "frameSize": "optimized for riders between 175-195 cm",
+      "frameSize": "optimized for riders between 165-195 cm",
       "brakes": "Hydraulic",
       "wheelSize": "29x2.25 inches",
       "rims": "Aluminum",
