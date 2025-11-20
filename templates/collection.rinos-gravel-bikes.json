@@ -220,6 +220,55 @@
         "stat_4_number": "",
         "stat_4_label": ""
       }
+    },
+    "rich_text_7GD4xg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AWK4yj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why Choose the <strong>Sandman</strong>?",
+            "heading_size": "h0"
+          }
+        },
+        "text_8UkTHH": {
+          "type": "text",
+          "settings": {
+            "text": "<h2><em>\"Experience the freedom to explore without limits with the </em><em><strong>RINOS Sandman</strong></em><em>—a gravel bike engineered for the trails and everyday rides alike.\"</em></h2><h3><strong>Timeless Frame Geometry</strong></h3><p>The Sandman’s frame is a masterpiece of design, offering comfort on long journeys and agility on challenging terrains. We've blended classic geometry with modern engineering to create a bike that feels both familiar and revolutionary. </p><h3><strong>All-Terrain Mastery</strong></h3><p>Equipped with wider, treaded tires, the Sandman excels on asphalt, gravel, dirt, and everything in between. Its advanced tire technology absorbs shocks and provides exceptional traction, so you can confidently tackle new routes and terrains. No path is off-limits when you're riding the Sandman.</p><h3><strong>Quality Components You Can Trust</strong></h3><p>Every component of the Sandman is carefully selected for reliability and peak performance. That is why most of our bikes are built with Shimano.  From the powerful disc brakes that offer consistent stopping power in all conditions to the smooth-shifting drivetrain that adapts effortlessly to changing terrains, the Sandman is built to handle whatever your journey demands.</p><p></p><h3><strong>Embrace the Spirit of Bikepacking</strong></h3><p>If you've ever dreamed of escaping the daily grind and embarking on a self-supported adventure, the Sandman is your perfect partner. Its robust yet lightweight frame is designed to accommodate racks and bags without compromising handling or speed. Load up your gear and let the Sandman take you to new trails.</p><p></p><h3></h3>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AWK4yj",
+        "text_8UkTHH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "gravel_assembly_yqyfxQ": {
+      "type": "Gravel-assembly",
+      "name": "Assembly Video",
+      "settings": {
+        "video_url": "https://www.youtube.com/embed/olcCPsOTT6w",
+        "title": "Assemble Your Sandman",
+        "subtitle": "Watch how simple it is to set up your Rinos gravel bike. Everything you need, step by step.",
+        "watch_text": "Watch the guide",
+        "video_title": "Gravel Bike Assembly Video",
+        "video_alt": "Rinos Sandman Gravel bike assembly",
+        "benefit_1_title": "Easy to Follow",
+        "benefit_1_text": "Clear instructions that anyone can follow.",
+        "benefit_2_title": "Basic Tools",
+        "benefit_2_text": "Everything you need is included in the box.",
+        "benefit_3_title": "Quick Setup",
+        "benefit_3_text": "Ready to ride in just a few simple steps."
+      }
     }
   },
   "order": [
@@ -230,6 +279,8 @@
     "herobannererika_8JQyhw",
     "banner",
     "trudi_widget_kKgmYg",
-    "iso_video_section_fGW7ea"
+    "iso_video_section_fGW7ea",
+    "gravel_assembly_yqyfxQ",
+    "rich_text_7GD4xg"
   ]
 }
