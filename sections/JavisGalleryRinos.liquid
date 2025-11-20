@@ -1,0 +1,902 @@
+{%- comment -%}
+  Multilingual Bike Gallery Section
+  Supports: EN, PL, DE, ES, FR, BG
+{%- endcomment -%}
+
+{%- liquid
+  assign current_locale = request.locale.iso_code
+  
+# English (default)
+assign available_colors_en = "Available Colors"
+assign discover_more_en = "Discover More"
+assign flagship_model_en = "Flagship Model"
+assign shop_sandman_8_en = "Shop Sandman 8"
+assign compare_models_en = "Compare Models"
+assign sandman_1_desc_en = "A reliable carbon gravel bike with Shimano Sora 2×9 gearing and mechanical disc brakes. Built on a TORAY T800 frame, it's lightweight, durable, and ideal for beginners seeking value, comfort, and versatility. Perfect for commuting, weekend rides, or venturing off-road without breaking the bank."
+assign sandman_3_desc_en = "A versatile carbon gravel bike featuring Shimano 105 ST-R7000 22-speed drivetrain and disc brakes. Built on a TORAY T800 carbon frame with matching carbon fork, handlebar, and seatpost, weighing 9.8kg. Equipped with 40mm aluminum wheels and CST 700×40C skinwall tires for reliable performance on road and gravel terrain."
+assign sandman_4_desc_en = "With Shimano GRX400 2×10 and hydraulic disc brakes, the Sandman 4 steps up in control and stopping power. Ideal for hilly, unpredictable terrain, it combines a lightweight carbon frame, flared handlebars, and wide tires to deliver performance, comfort, and confidence in all conditions."
+assign sandman_5_desc_en = "A high-performance carbon gravel bike featuring Shimano Ultegra ST-R8000 22-speed drivetrain and disc brakes. Built entirely from premium TORAY T800 carbon including frame, fork, handlebar, and seatpost, weighing 8.9kg. Equipped with 40mm carbon wheels and CST 700×40C skinwall tires for superior performance and traction on any terrain."
+assign sandman_6_desc_en = "A versatile carbon gravel bike with Shimano GRX 600 22-speed (2×11) drivetrain and full hydraulic disc brakes. Built on a TORAY T800 carbon frame and fork with carbon handlebar, weighing 9.8kg. Features 38mm aluminum wheels with NOVATEC hubs and CST 700×40C tires with sidewall protection."
+assign sandman_7_desc_en = "The ultimate gravel bike in the Rinos lineup, featuring Shimano GRX820 2×12 drivetrain and hydraulic disc brakes. Designed for riders who demand full range, long-distance comfort, and aggressive performance. Lightweight, race-ready, and bikepacking-capable — the Sandman 7 is your go-anywhere, do-everything carbon gravel machine."
+assign sandman_8_desc_en = "The pinnacle of gravel engineering, featuring Shimano 105 Di2 electronic shifting with precision 12-speed performance. Built on a lightweight Toray T800 carbon frame with 40mm carbon wheels and hydraulic disc brakes. At just 9.4kg, this flagship model delivers professional-grade electronic shifting for the ultimate gravel experience."
+assign sandman_8_cta_en = "Experience the future of gravel cycling with Shimano 105 Di2 electronic shifting. Lightning-fast 12-speed precision, 40mm carbon wheels, and just 9.4kg of pure performance. Electronic shifting meets gravel perfection."
+
+# Polish
+assign available_colors_pl = "Dostępne Kolory"
+assign discover_more_pl = "Dowiedz Się Więcej"
+assign flagship_model_pl = "Model Flagowy"
+assign shop_sandman_8_pl = "Kup Sandman 8"
+assign compare_models_pl = "Porównaj Modele"
+assign sandman_1_desc_pl = "Niezawodny rower gravelowy z węgla z przerzutkami Shimano Sora 2×9 i mechanicznymi hamulcami tarczowymi. Zbudowany na ramie TORAY T800, jest lekki, trwały i idealny dla początkujących szukających wartości, komfortu i wszechstronności. Idealny do dojazdów, weekendowych przejażdżek lub wypraw w teren."
+assign sandman_3_desc_pl = "Wszechstronny rower gravelowy z węgla z napędem Shimano 105 ST-R7000 22-biegowym i hamulcami tarczowymi. Zbudowany na ramie TORAY T800 z węgla z pasującym widelcem, kierownicą i sztycą z węgla, waży 9,8kg. Wyposażony w 40mm aluminiowe koła i opony CST 700×40C skinwall dla niezawodnej wydajności na drodze i żwirze."
+assign sandman_4_desc_pl = "Z napędem Shimano GRX400 2×10 i hydraulicznymi hamulcami tarczowymi, Sandman 4 zwiększa kontrolę i siłę hamowania. Idealny na pagórkowatym, nieprzewidywalnym terenie, łączy lekką ramę z węgla, rozszerzane kierownice i szerokie opony."
+assign sandman_5_desc_pl = "Wysokowydajny rower gravelowy z węgla z napędem Shimano Ultegra ST-R8000 22-biegowym i hamulcami tarczowymi. Zbudowany w całości z premium węgla TORAY T800 włączając ramę, widelec, kierownicę i sztycę, waży 8,9kg. Wyposażony w 40mm koła z węgla i opony CST 700×40C skinwall dla doskonałej wydajności i przyczepności na każdym terenie."
+assign sandman_6_desc_pl = "Wszechstronny rower gravelowy z węgla z napędem Shimano GRX 600 22-biegowym (2×11) i w pełni hydraulicznymi hamulcami tarczowymi. Zbudowany na ramie i widelcu TORAY T800 z węgla z kierownicą z węgla, waży 9,8kg. Wyposażony w 38mm aluminiowe koła z piastami NOVATEC i opony CST 700×40C z ochroną ścian bocznych."
+assign sandman_7_desc_pl = "Najlepszy rower gravelowy w ofercie Rinos, wyposażony w napęd Shimano GRX820 2×12 i hydrauliczne hamulce tarczowe. Zaprojektowany dla jeźdźców wymagających pełnego zakresu, komfortu na długich dystansach i agresywnej wydajności."
+assign sandman_8_desc_pl = "Szczyt inżynierii gravelowej, wyposażony w elektroniczne przerzutki Shimano 105 Di2 z precyzyjną 12-biegową wydajnością. Zbudowany na lekkiej ramie Toray T800 z 40mm kołami z węgla i hydraulicznymi hamulcami tarczowymi. Przy wadze zaledwie 9,4kg."
+assign sandman_8_cta_pl = "Doświadcz przyszłości kolarstwa gravelowego z elektronicznymi przerzutkami Shimano 105 Di2. Błyskawiczna precyzja 12-biegów, 40mm koła z węgla i zaledwie 9,4kg czystej wydajności."
+
+# German
+assign available_colors_de = "Verfügbare Farben"
+assign discover_more_de = "Mehr Erfahren"
+assign flagship_model_de = "Flaggschiff-Modell"
+assign shop_sandman_8_de = "Sandman 8 Kaufen"
+assign compare_models_de = "Modelle Vergleichen"
+assign sandman_1_desc_de = "Ein zuverlässiges Carbon-Gravel-Bike mit Shimano Sora 2×9 Schaltung und mechanischen Scheibenbremsen. Gebaut auf einem TORAY T800 Rahmen, ist es leicht, langlebig und ideal für Anfänger, die Wert, Komfort und Vielseitigkeit suchen. Perfekt für Pendeln, Wochenendfahrten oder Offroad-Abenteuer."
+assign sandman_3_desc_de = "Ein vielseitiges Carbon-Gravel-Bike mit Shimano 105 ST-R7000 22-Gang-Antrieb und Scheibenbremsen. Gebaut auf einem TORAY T800 Carbon-Rahmen mit passender Carbon-Gabel, Lenker und Sattelstütze, wiegt 9,8kg. Ausgestattet mit 40mm Aluminium-Laufrädern und CST 700×40C Skinwall-Reifen für zuverlässige Leistung auf Straße und Schotter."
+assign sandman_4_desc_de = "Mit Shimano GRX400 2×10 und hydraulischen Scheibenbremsen steigert das Sandman 4 Kontrolle und Bremsleistung. Ideal für hügeliges, unvorhersehbares Gelände, kombiniert es einen leichten Carbon-Rahmen, ausgestellte Lenker und breite Reifen."
+assign sandman_5_desc_de = "Ein Hochleistungs-Carbon-Gravel-Bike mit Shimano Ultegra ST-R8000 22-Gang-Antrieb und Scheibenbremsen. Vollständig aus premium TORAY T800 Carbon gefertigt inklusive Rahmen, Gabel, Lenker und Sattelstütze, wiegt 8,9kg. Ausgestattet mit 40mm Carbon-Laufrädern und CST 700×40C Skinwall-Reifen für überlegene Leistung und Traktion auf jedem Terrain."
+assign sandman_6_desc_de = "Ein vielseitiges Carbon-Gravel-Bike mit Shimano GRX 600 22-Gang (2×11) Antrieb und vollhydraulischen Scheibenbremsen. Gebaut auf einem TORAY T800 Carbon-Rahmen und -Gabel mit Carbon-Lenker, wiegt 9,8kg. Ausgestattet mit 38mm Aluminium-Laufrädern mit NOVATEC-Naben und CST 700×40C Reifen mit Seitenwandschutz."
+assign sandman_7_desc_de = "Das ultimative Gravel-Bike in der Rinos-Lineup, mit Shimano GRX820 2×12 Antrieb und hydraulischen Scheibenbremsen. Entwickelt für Fahrer, die vollen Bereich, Langstrecken-Komfort und aggressive Performance verlangen."
+assign sandman_8_desc_de = "Der Gipfel des Gravel-Engineerings, mit Shimano 105 Di2 elektronischer Schaltung und präziser 12-Gang-Performance. Gebaut auf einem leichten Toray T800 Carbon-Rahmen mit 40mm Carbon-Laufrädern und hydraulischen Scheibenbremsen. Mit nur 9,4kg."
+assign sandman_8_cta_de = "Erleben Sie die Zukunft des Gravel-Cycling mit Shimano 105 Di2 elektronischer Schaltung. Blitzschnelle 12-Gang-Präzision, 40mm Carbon-Laufräder und nur 9,4kg pure Performance."
+
+# Spanish
+assign available_colors_es = "Colores Disponibles"
+assign discover_more_es = "Descubrir Más"
+assign flagship_model_es = "Modelo Insignia"
+assign shop_sandman_8_es = "Comprar Sandman 8"
+assign compare_models_es = "Comparar Modelos"
+assign sandman_1_desc_es = "Una bicicleta gravel de carbono confiable con cambios Shimano Sora 2×9 y frenos de disco mecánicos. Construida sobre un cuadro TORAY T800, es ligera, duradera e ideal para principiantes que buscan valor, comodidad y versatilidad. Perfecta para desplazamientos, paseos de fin de semana o aventuras fuera de carretera."
+assign sandman_3_desc_es = "Una bicicleta gravel de carbono versátil con transmisión Shimano 105 ST-R7000 de 22 velocidades y frenos de disco. Construida sobre un cuadro TORAY T800 de carbono con horquilla, manillar y tija de sillín de carbono a juego, pesando 9,8kg. Equipada con ruedas de aluminio de 40mm y llantas CST 700×40C skinwall para rendimiento confiable en carretera y grava."
+assign sandman_4_desc_es = "Con Shimano GRX400 2×10 y frenos de disco hidráulicos, la Sandman 4 mejora el control y la potencia de frenado. Ideal para terreno montañoso e impredecible, combina un cuadro de carbono ligero, manillares ensanchados y llantas anchas."
+assign sandman_5_desc_es = "Una bicicleta gravel de carbono de alto rendimiento con transmisión Shimano Ultegra ST-R8000 de 22 velocidades y frenos de disco. Construida completamente con carbono TORAY T800 premium incluyendo cuadro, horquilla, manillar y tija de sillín, pesando 8,9kg. Equipada con ruedas de carbono de 40mm y llantas CST 700×40C skinwall para rendimiento superior y tracción en cualquier terreno."
+assign sandman_6_desc_es = "Una bicicleta gravel de carbono versátil con transmisión Shimano GRX 600 de 22 velocidades (2×11) y frenos de disco hidráulicos completos. Construida sobre cuadro y horquilla TORAY T800 de carbono con manillar de carbono, pesando 9,8kg. Cuenta con ruedas de aluminio de 38mm con bujes NOVATEC y llantas CST 700×40C con protección lateral."
+assign sandman_7_desc_es = "La bicicleta gravel definitiva en la gama Rinos, con transmisión Shimano GRX820 2×12 y frenos de disco hidráulicos. Diseñada para ciclistas que demandan rango completo, comodidad de larga distancia y rendimiento agresivo."
+assign sandman_8_desc_es = "La cúspide de la ingeniería gravel, con cambio electrónico Shimano 105 Di2 y rendimiento de 12 velocidades de precisión. Construida sobre un cuadro ligero Toray T800 con ruedas de carbono de 40mm y frenos de disco hidráulicos. Con solo 9,4kg."
+assign sandman_8_cta_es = "Experimenta el futuro del ciclismo gravel con cambio electrónico Shimano 105 Di2. Precisión de 12 velocidades ultrarrápida, ruedas de carbono de 40mm y solo 9,4kg de rendimiento puro."
+
+# French
+assign available_colors_fr = "Couleurs Disponibles"
+assign discover_more_fr = "Découvrir Plus"
+assign flagship_model_fr = "Modèle Phare"
+assign shop_sandman_8_fr = "Acheter Sandman 8"
+assign compare_models_fr = "Comparer les Modèles"
+assign sandman_1_desc_fr = "Un vélo gravel en carbone fiable avec transmission Shimano Sora 2×9 et freins à disque mécaniques. Construit sur un cadre TORAY T800, il est léger, durable et idéal pour les débutants recherchant valeur, confort et polyvalence. Parfait pour les trajets quotidiens, les sorties de week-end ou les aventures hors route."
+assign sandman_3_desc_fr = "Un vélo gravel en carbone polyvalent avec transmission Shimano 105 ST-R7000 22 vitesses et freins à disque. Construit sur un cadre TORAY T800 carbone avec fourche, guidon et tige de selle carbone assortis, pesant 9,8kg. Équipé de roues aluminium 40mm et pneus CST 700×40C skinwall pour performance fiable sur route et gravel."
+assign sandman_4_desc_fr = "Avec Shimano GRX400 2×10 et freins à disque hydrauliques, le Sandman 4 améliore le contrôle et la puissance de freinage. Idéal pour terrain vallonné et imprévisible, il combine un cadre carbone léger, guidons évasés et pneus larges."
+assign sandman_5_desc_fr = "Un vélo gravel carbone haute performance avec transmission Shimano Ultegra ST-R8000 22 vitesses et freins à disque. Construit entièrement en carbone TORAY T800 premium incluant cadre, fourche, guidon et tige de selle, pesant 8,9kg. Équipé de roues carbone 40mm et pneus CST 700×40C skinwall pour performance supérieure et traction sur tout terrain."
+assign sandman_6_desc_fr = "Un vélo gravel carbone polyvalent avec transmission Shimano GRX 600 22 vitesses (2×11) et freins à disque hydrauliques complets. Construit sur cadre et fourche TORAY T800 carbone avec guidon carbone, pesant 9,8kg. Équipé de roues aluminium 38mm avec moyeux NOVATEC et pneus CST 700×40C avec protection latérale."
+assign sandman_7_desc_fr = "Le vélo gravel ultime de la gamme Rinos, avec transmission Shimano GRX820 2×12 et freins à disque hydrauliques. Conçu pour les cyclistes exigeant une gamme complète, un confort longue distance et des performances agressives."
+assign sandman_8_desc_fr = "Le summum de l'ingénierie gravel, avec changement électronique Shimano 105 Di2 et performance 12 vitesses de précision. Construit sur un cadre léger Toray T800 avec roues carbone 40mm et freins à disque hydrauliques. Seulement 9,4kg."
+assign sandman_8_cta_fr = "Découvrez l'avenir du cyclisme gravel avec le changement électronique Shimano 105 Di2. Précision 12 vitesses ultra-rapide, roues carbone 40mm et seulement 9,4kg de performance pure."
+
+# Bulgarian
+assign available_colors_bg = "Налични Цветове"
+assign discover_more_bg = "Научи Повече"
+assign flagship_model_bg = "Флагмански Модел"
+assign shop_sandman_8_bg = "Купи Sandman 8"
+assign compare_models_bg = "Сравни Модели"
+assign sandman_1_desc_bg = "Надежден карбонов грейвъл велосипед с Shimano Sora 2×9 скорости и механични дискови спирачки. Изграден върху TORAY T800 рамка, той е лек, издръжлив и идеален за начинаещи, търсещи стойност, комфорт и универсалност. Перфектен за пътуване до работа, уикендови разходки или приключения извън пътя."
+assign sandman_3_desc_bg = "Универсален карбонов грейвъл велосипед с Shimano 105 ST-R7000 22-скоростно задвижване и дискови спирачки. Изграден върху TORAY T800 карбонова рамка с пасваща карбонова вилка, кормило и седлова стойка, тежи 9,8кг. Оборудван с 40мм алуминиеви колела и CST 700×40C skinwall гуми за надеждна производителност на път и чакъл."
+assign sandman_4_desc_bg = "С Shimano GRX400 2×10 и хидравлични дискови спирачки, Sandman 4 повишава контрола и силата на спиране. Идеален за хълмист, непредвидим терен, той комбинира лека карбонова рамка, разширени кормила и широки гуми."
+assign sandman_5_desc_bg = "Високопроизводителен карбонов грейвъл велосипед с Shimano Ultegra ST-R8000 22-скоростно задвижване и дискови спирачки. Изграден изцяло от премиум TORAY T800 карбон включително рамка, вилка, кормило и седлова стойка, тежи 8,9кг. Оборудван с 40мм карбонови колела и CST 700×40C skinwall гуми за превъзходна производителност и сцепление на всеки терен."
+assign sandman_6_desc_bg = "Универсален карбонов грейвъл велосипед с Shimano GRX 600 22-скоростно (2×11) задвижване и пълни хидравлични дискови спирачки. Изграден върху TORAY T800 карбонова рамка и вилка с карбоново кормило, тежи 9,8кг. Оборудван с 38мм алуминиеви колела с NOVATEC главини и CST 700×40C гуми със защита на страничните стени."
+assign sandman_7_desc_bg = "Върховният грейвъл велосипед в Rinos гамата, с Shimano GRX820 2×12 задвижване и хидравлични дискови спирачки. Проектиран за велосипедисти, които изискват пълен диапазон, дългоразстоен комфорт и агресивна производителност."
+assign sandman_8_desc_bg = "Върхът на грейвъл инженерството, с Shimano 105 Di2 електронно превключване и прецизна 12-скоростна производителност. Изграден върху лека Toray T800 карбонова рамка с 40мм карбонови колелета и хидравлични дискови спирачки. Само 9,4кг."
+assign sandman_8_cta_bg = "Изживейте бъдещето на грейвъл колоезденето с Shimano 105 Di2 електронно превключване. Мълниеносна 12-скоростна прецизност, 40мм карбонови колелета и само 9,4кг чиста производителност."
+
+  # Select translations based on current locale
+  case current_locale
+    when 'pl'
+      assign available_colors = available_colors_pl
+      assign discover_more = discover_more_pl
+      assign flagship_model = flagship_model_pl
+      assign shop_sandman_8 = shop_sandman_8_pl
+      assign compare_models = compare_models_pl
+      assign sandman_1_desc = sandman_1_desc_pl
+      assign sandman_3_desc = sandman_3_desc_pl
+      assign sandman_4_desc = sandman_4_desc_pl
+      assign sandman_5_desc = sandman_5_desc_pl
+      assign sandman_6_desc = sandman_6_desc_pl
+      assign sandman_7_desc = sandman_7_desc_pl
+      assign sandman_8_desc = sandman_8_desc_pl
+      assign sandman_8_cta = sandman_8_cta_pl
+    when 'de'
+      assign available_colors = available_colors_de
+      assign discover_more = discover_more_de
+      assign flagship_model = flagship_model_de
+      assign shop_sandman_8 = shop_sandman_8_de
+      assign compare_models = compare_models_de
+      assign sandman_1_desc = sandman_1_desc_de
+      assign sandman_3_desc = sandman_3_desc_de
+      assign sandman_4_desc = sandman_4_desc_de
+      assign sandman_5_desc = sandman_5_desc_de
+      assign sandman_6_desc = sandman_6_desc_de
+      assign sandman_7_desc = sandman_7_desc_de
+      assign sandman_8_desc = sandman_8_desc_de
+      assign sandman_8_cta = sandman_8_cta_de
+    when 'es'
+      assign available_colors = available_colors_es
+      assign discover_more = discover_more_es
+      assign flagship_model = flagship_model_es
+      assign shop_sandman_8 = shop_sandman_8_es
+      assign compare_models = compare_models_es
+      assign sandman_1_desc = sandman_1_desc_es
+      assign sandman_3_desc = sandman_3_desc_es
+      assign sandman_4_desc = sandman_4_desc_es
+      assign sandman_5_desc = sandman_5_desc_es
+      assign sandman_6_desc = sandman_6_desc_es
+      assign sandman_7_desc = sandman_7_desc_es
+      assign sandman_8_desc = sandman_8_desc_es
+      assign sandman_8_cta = sandman_8_cta_es
+    when 'fr'
+      assign available_colors = available_colors_fr
+      assign discover_more = discover_more_fr
+      assign flagship_model = flagship_model_fr
+      assign shop_sandman_8 = shop_sandman_8_fr
+      assign compare_models = compare_models_fr
+      assign sandman_1_desc = sandman_1_desc_fr
+      assign sandman_3_desc = sandman_3_desc_fr
+      assign sandman_4_desc = sandman_4_desc_fr
+      assign sandman_5_desc = sandman_5_desc_fr
+      assign sandman_6_desc = sandman_6_desc_fr
+      assign sandman_7_desc = sandman_7_desc_fr
+      assign sandman_8_desc = sandman_8_desc_fr
+      assign sandman_8_cta = sandman_8_cta_fr
+    when 'bg'
+      assign available_colors = available_colors_bg
+      assign discover_more = discover_more_bg
+      assign flagship_model = flagship_model_bg
+      assign shop_sandman_8 = shop_sandman_8_bg
+      assign compare_models = compare_models_bg
+      assign sandman_1_desc = sandman_1_desc_bg
+      assign sandman_3_desc = sandman_3_desc_bg
+      assign sandman_4_desc = sandman_4_desc_bg
+      assign sandman_5_desc = sandman_5_desc_bg
+      assign sandman_6_desc = sandman_6_desc_bg
+      assign sandman_7_desc = sandman_7_desc_bg
+      assign sandman_8_desc = sandman_8_desc_bg
+      assign sandman_8_cta = sandman_8_cta_bg
+    else
+      assign available_colors = available_colors_en
+      assign discover_more = discover_more_en
+      assign flagship_model = flagship_model_en
+      assign shop_sandman_8 = shop_sandman_8_en
+      assign compare_models = compare_models_en
+      assign sandman_1_desc = sandman_1_desc_en
+      assign sandman_3_desc = sandman_3_desc_en
+      assign sandman_4_desc = sandman_4_desc_en
+      assign sandman_5_desc = sandman_5_desc_en
+      assign sandman_6_desc = sandman_6_desc_en
+      assign sandman_7_desc = sandman_7_desc_en
+      assign sandman_8_desc = sandman_8_desc_en
+      assign sandman_8_cta = sandman_8_cta_en
+  endcase
+-%}
+
+<style>
+.bike-gallery {
+  padding: 60px 20px !important;
+  background: #ffffff !important;
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.bike-gallery .gallery-container {
+  max-width: 1400px !important;
+  margin: 0 auto !important;
+}
+
+.bike-gallery .bike-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)) !important;
+  gap: 40px !important;
+  margin-bottom: 60px !important;
+}
+
+/* New layout for Sandman 8 and CTA section */
+.bike-gallery .final-section {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 40px !important;
+  align-items: center !important;
+}
+
+.bike-gallery .cta-section {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+  padding: 40px 40px 60px 40px !important;
+  border-radius: 16px !important;
+  text-align: center !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.bike-gallery .cta-hero-image {
+  width: 100% !important;
+  max-width: 300px !important;
+  height: auto !important;
+  margin: 0 auto 30px auto !important;
+  display: block !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.bike-gallery .cta-section::before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  background: url('data:image/svg+xml,<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="%23000" fill-opacity="0.02"><circle cx="30" cy="30" r="2"/></g></g></svg>') !important;
+  opacity: 0.3 !important;
+}
+
+.bike-gallery .cta-content {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.bike-gallery .cta-badge {
+  display: inline-block !important;
+  background: #1d1d1f !important;
+  color: #ffffff !important;
+  padding: 8px 20px !important;
+  border-radius: 50px !important;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 24px !important;
+}
+
+.bike-gallery .cta-title {
+  font-size: 2.2rem !important;
+  font-weight: 700 !important;
+  color: #1d1d1f !important;
+  margin-bottom: 16px !important;
+  text-transform: uppercase !important;
+  letter-spacing: -0.02em !important;
+}
+
+.bike-gallery .cta-subtitle {
+  font-size: 1.1rem !important;
+  color: #86868b !important;
+  line-height: 1.6 !important;
+  margin-bottom: 32px !important;
+}
+
+.bike-gallery .cta-buttons {
+  display: flex !important;
+  gap: 16px !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+}
+
+.bike-gallery .cta-primary {
+  display: inline-block !important;
+  padding: 16px 32px !important;
+  background-color: #1d1d1f !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.5px !important;
+  transition: all 0.3s ease !important;
+  border: 2px solid #1d1d1f !important;
+  border-radius: 50px !important;
+}
+
+.bike-gallery .cta-primary:hover {
+  background-color: transparent !important;
+  color: #1d1d1f !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 24px rgba(29, 29, 31, 0.2) !important;
+}
+
+.bike-gallery .cta-secondary {
+  display: inline-block !important;
+  padding: 16px 32px !important;
+  background-color: transparent !important;
+  color: #1d1d1f !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.5px !important;
+  transition: all 0.3s ease !important;
+  border: 2px solid #1d1d1f !important;
+  border-radius: 50px !important;
+}
+
+.bike-gallery .cta-secondary:hover {
+  background-color: #1d1d1f !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 24px rgba(29, 29, 31, 0.2) !important;
+}
+
+.bike-gallery .bike-card {
+  background: #fafafa !important;
+  overflow: hidden !important;
+  transition: transform 0.3s ease !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.bike-gallery .bike-card:hover {
+  transform: translateY(-4px) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15) !important;
+}
+
+.bike-gallery .bike-card.featured:hover {
+  transform: translateY(-6px) !important;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.25) !important;
+}
+
+.bike-gallery .bike-card.featured {
+  background: linear-gradient(135deg, #2c2c2e 0%, #1c1c1e 25%, #2c2c2e 50%, #48484a 75%, #2c2c2e 100%) !important;
+  background-size: 400% 400% !important;
+  animation: gradientFlow 6s ease-in-out infinite !important;
+  border: 2px solid rgba(255, 255, 255, 0.1) !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.bike-gallery .bike-card.featured::before {
+  content: '' !important;
+  position: absolute !important;
+  top: 0 !important;
+  left: -100% !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent) !important;
+  animation: shine 3s ease-in-out infinite !important;
+  z-index: 1 !important;
+}
+
+.bike-gallery .bike-card.featured .bike-info {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.bike-gallery .bike-card.featured .bike-image-section {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes shine {
+  0% { left: -100%; }
+  50% { left: 100%; }
+  100% { left: 100%; }
+}
+
+.bike-gallery .bike-image-section {
+  height: 300px !important;
+  background: #ffffff !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.bike-gallery .bike-image {
+  max-width: 90% !important;
+  max-height: 90% !important;
+  object-fit: contain !important;
+  transition: opacity 0.3s ease !important;
+}
+
+/* Specific sizing for Sandman 1, 3, 5, 8 images */
+.bike-gallery #bike-1,
+.bike-gallery #bike-3,
+.bike-gallery #bike-5 {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  transform: scale(1.25) !important;
+}
+
+.bike-gallery #bike-8 {
+  max-width: 90% !important;
+  max-height: 90% !important;
+  object-fit: contain !important;
+}
+
+.bike-gallery .bike-info {
+  padding: 30px !important;
+}
+
+.bike-gallery .bike-name {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  color: #1d1d1f !important;
+  margin-bottom: 12px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.02em !important;
+}
+
+.bike-gallery .bike-card.featured .bike-name {
+  color: #ffffff !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.bike-gallery .bike-description {
+  font-size: 1rem !important;
+  color: #86868b !important;
+  line-height: 1.5 !important;
+  margin-bottom: 20px !important;
+  flex: 1 !important;
+}
+
+.bike-gallery .bike-card.featured .bike-description {
+  color: rgba(255, 255, 255, 0.95) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+.bike-gallery .color-options {
+  margin-bottom: 20px !important;
+}
+
+.bike-gallery .color-label {
+  font-size: 0.85rem !important;
+  color: #86868b !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  margin-bottom: 12px !important;
+  display: block !important;
+}
+
+.bike-gallery .bike-card.featured .color-label {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Enhanced color swatches with maximum specificity */
+.bike-gallery .color-swatches {
+  display: flex !important;
+  gap: 12px !important;
+  flex-wrap: wrap !important;
+  margin-top: 8px !important;
+  align-items: center !important;
+}
+
+.bike-gallery .color-swatch {
+  width: 38px !important;
+  height: 38px !important;
+  border-radius: 50% !important;
+  border: 3px solid #e0e0e0 !important;
+  cursor: pointer !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  position: relative !important;
+  display: inline-block !important;
+  flex-shrink: 0 !important;
+  box-sizing: border-box !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.bike-gallery .color-swatch::before {
+  content: '' !important;
+  position: absolute !important;
+  top: -6px !important;
+  left: -6px !important;
+  right: -6px !important;
+  bottom: -6px !important;
+  border-radius: 50% !important;
+  border: 2px solid transparent !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  opacity: 0 !important;
+}
+
+.bike-gallery .color-swatch:hover {
+  border-color: #333 !important;
+  transform: scale(1.15) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+.bike-gallery .color-swatch:hover::before {
+  border-color: #333 !important;
+  opacity: 0.3 !important;
+  transform: scale(1.1) !important;
+}
+
+.bike-gallery .color-swatch.active {
+  border-color: #000 !important;
+  transform: scale(1.15) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25) !important;
+}
+
+.bike-gallery .color-swatch.active::before {
+  border-color: #000 !important;
+  opacity: 0.4 !important;
+  transform: scale(1.1) !important;
+}
+
+/* Color definitions with maximum specificity and enhanced styling */
+.bike-gallery .color-swatch.chameleon-gold {
+  background: linear-gradient(135deg, #FFD700 0%, #AC9E18 100%) !important;
+  background-color: #FFD700 !important;
+}
+
+.bike-gallery .color-swatch.metal-blue-violet {
+  background: linear-gradient(135deg, #5C85CC 0%, #5F5BC5 100%) !important;
+  background-color: #4B0082 !important;
+}
+
+.bike-gallery .color-swatch.black-forest {
+  background: linear-gradient(135deg, #2C3E50 0%, #6C8759 100%) !important;
+  background-color: #2C3E50 !important;
+}
+
+.bike-gallery .color-swatch.ivory-desert {
+  background: linear-gradient(135deg, #FFF47E 0%, #2A2A2A 100%) !important;
+  background-color: #F5F5DC !important;
+  border-color: #999 !important;
+}
+
+.bike-gallery .color-swatch.coffee-brown {
+  background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%) !important;
+  background-color: #8B4513 !important;
+}
+
+.bike-gallery .discover-button {
+  display: inline-block !important;
+  padding: 12px 24px !important;
+  background-color: #1d1d1f !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  font-size: 0.8rem !important;
+  letter-spacing: 0.5px !important;
+  transition: all 0.3s ease !important;
+  border: 1px solid #1d1d1f !important;
+  border-radius: 4px !important;
+}
+
+.bike-gallery .discover-button:hover {
+  background-color: transparent !important;
+  color: #1d1d1f !important;
+}
+
+.bike-gallery .bike-card.featured .discover-button {
+  background-color: #ffffff !important;
+  color: #1d1d1f !important;
+  border-color: #ffffff !important;
+}
+
+.bike-gallery .bike-card.featured .discover-button:hover {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+}
+
+/* Mobile responsive with enhanced specificity */
+@media (max-width: 768px) {
+  .bike-gallery .bike-grid {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+  
+  .bike-gallery .final-section {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+  
+  .bike-gallery .cta-section {
+    padding: 30px 30px 40px 30px !important;
+  }
+  
+  .bike-gallery .cta-hero-image {
+    max-width: 250px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .bike-gallery .cta-title {
+    font-size: 1.8rem !important;
+  }
+  
+  .bike-gallery .cta-buttons {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
+  .bike-gallery .cta-primary,
+  .bike-gallery .cta-secondary {
+    width: 100% !important;
+    max-width: 280px !important;
+  }
+  
+  .bike-gallery .bike-image-section {
+    height: 250px !important;
+  }
+  
+  .bike-gallery .bike-info {
+    padding: 20px !important;
+  }
+  
+  .bike-gallery .bike-name {
+    font-size: 1.3rem !important;
+  }
+  
+  .bike-gallery .color-swatch {
+    width: 34px !important;
+    height: 34px !important;
+  }
+  
+  .bike-gallery .color-swatch::before {
+    top: -4px !important;
+    left: -4px !important;
+    right: -4px !important;
+    bottom: -4px !important;
+  }
+}
+</style>
+
+<section class="bike-gallery">
+  <div class="gallery-container">
+    <div class="bike-grid">
+      
+      <!-- Sandman 1 -->
+      <div class="bike-card">
+        <div class="bike-image-section">
+          <img class="bike-image" id="bike-1"
+               src="https://rinosbike.com/cdn/shop/files/Group101.png?v=1750150243&width=713" 
+               alt="Sandman 1">
+        </div>
+        <div class="bike-info">
+          <h3 class="bike-name">Sandman 1</h3>
+          <p class="bike-description">{{ sandman_1_desc }}</p>
+          
+          <div class="color-options">
+            <span class="color-label">{{ available_colors }}</span>
+            <div class="color-swatches">
+              <div class="color-swatch chameleon-gold active" 
+                   onclick="BikeGallery.switchColor('bike-1', 'https://rinosbike.com/cdn/shop/files/Group101.png?v=1750150243&width=713', this)"></div>
+              <div class="color-swatch metal-blue-violet" 
+                   onclick="BikeGallery.switchColor('bike-1', 'https://rinosbike.com/cdn/shop/files/Group302.png?v=1750150243&width=713', this)"></div>
+            </div>
+          </div>
+          
+          <a href="/products/sandman-1" class="discover-button">{{ discover_more }}</a>
+        </div>
+      </div>
+
+      <!-- Sandman 3 -->
+      <div class="bike-card">
+        <div class="bike-image-section">
+          <img class="bike-image" id="bike-3"
+               src="https://rinosbike.com/cdn/shop/files/Group119.png?v=1742547718&width=713" 
+               alt="Sandman 3">
+        </div>
+        <div class="bike-info">
+          <h3 class="bike-name">Sandman 3</h3>
+          <p class="bike-description">{{ sandman_3_desc }}</p>
+          
+          <div class="color-options">
+            <span class="color-label">{{ available_colors }}</span>
+            <div class="color-swatches">
+              <div class="color-swatch chameleon-gold active" 
+                   onclick="BikeGallery.switchColor('bike-3', 'https://rinosbike.com/cdn/shop/files/Group119.png?v=1742547718&width=713', this)"></div>
+              <div class="color-swatch metal-blue-violet" 
+                   onclick="BikeGallery.switchColor('bike-3', 'https://rinosbike.com/cdn/shop/files/Group115.png?v=1742547719&width=713', this)"></div>
+            </div>
+          </div>
+          
+          <a href="/products/sandman-3" class="discover-button">{{ discover_more }}</a>
+        </div>
+      </div>
+
+      <!-- Sandman 4 (Featured) -->
+      <div class="bike-card featured">
+        <div class="bike-image-section">
+          <img class="bike-image" id="bike-4"
+               src="https://i.goopics.net/l39mbo.png" 
+               alt="Sandman 4">
+        </div>
+        <div class="bike-info">
+          <h3 class="bike-name">Sandman 4</h3>
+          <p class="bike-description">{{ sandman_4_desc }}</p>
+          
+          <div class="color-options">
+            <span class="color-label">{{ available_colors }}</span>
+            <div class="color-swatches">
+              <div class="color-swatch black-forest active" 
+                   onclick="BikeGallery.switchColor('bike-4', 'https://i.goopics.net/l39mbo.png', this)"></div>
+              <div class="color-swatch ivory-desert" 
+                   onclick="BikeGallery.switchColor('bike-4', 'https://rinosbike.com/cdn/shop/files/1.jpg?v=1732702119&width=713', this)"></div>
+              <div class="color-swatch chameleon-gold" 
+                   onclick="BikeGallery.switchColor('bike-4', 'https://rinosbike.com/cdn/shop/files/Group_400.png?v=1752218414&width=713', this)"></div>
+              <div class="color-swatch metal-blue-violet" 
+                   onclick="BikeGallery.switchColor('bike-4', 'https://rinosbike.com/cdn/shop/files/Group_410.jpg?v=1750077702&width=713', this)"></div>
+            </div>
+          </div>
+          
+          <a href="/products/sandman-4" class="discover-button">{{ discover_more }}</a>
+        </div>
+      </div>
+
+      <!-- Sandman 5 -->
+      <div class="bike-card">
+        <div class="bike-image-section">
+          <img class="bike-image" id="bike-5"
+               src="https://rinosbike.com/cdn/shop/files/Group119.png?v=1742547718&width=713" 
+               alt="Sandman 5">
+        </div>
+        <div class="bike-info">
+          <h3 class="bike-name">Sandman 5</h3>
+          <p class="bike-description">{{ sandman_5_desc }}</p>
+          
+          <div class="color-options">
+            <span class="color-label">{{ available_colors }}</span>
+            <div class="color-swatches">
+              <div class="color-swatch chameleon-gold active" 
+                   onclick="BikeGallery.switchColor('bike-5', 'https://rinosbike.com/cdn/shop/files/Group119.png?v=1742547718&width=713', this)"></div>
+              <div class="color-swatch metal-blue-violet" 
+                   onclick="BikeGallery.switchColor('bike-5', 'https://rinosbike.com/cdn/shop/files/Group115.png?v=1742547719&width=713', this)"></div>
+            </div>
+          </div>
+          
+          <a href="/products/sandman-5" class="discover-button">{{ discover_more }}</a>
+        </div>
+      </div>
+
+      <!-- Sandman 6 -->
+      <div class="bike-card">
+        <div class="bike-image-section">
+          <img class="bike-image" id="bike-6"
+               src="https://i.goopics.net/l39mbo.png" 
+               alt="Sandman 6">
+        </div>
+        <div class="bike-info">
+          <h3 class="bike-name">Sandman 6</h3>
+          <p class="bike-description">{{ sandman_6_desc }}</p>
+          
+          <div class="color-options">
+            <span class="color-label">{{ available_colors }}</span>
+            <div class="color-swatches">
+              <div class="color-swatch black-forest active" 
+                   onclick="BikeGallery.switchColor('bike-6', 'https://i.goopics.net/l39mbo.png', this)"></div>
+              <div class="color-swatch ivory-desert" 
+                   onclick="BikeGallery.switchColor('bike-6', 'https://rinosbike.com/cdn/shop/files/1.jpg?v=1732702119&width=713', this)"></div>
+              <div class="color-swatch chameleon-gold" 
+                   onclick="BikeGallery.switchColor('bike-6', 'https://rinosbike.com/cdn/shop/files/Group_400.png?v=1752218414&width=713', this)"></div>
+              <div class="color-swatch metal-blue-violet" 
+                   onclick="BikeGallery.switchColor('bike-6', 'https://rinosbike.com/cdn/shop/files/Group_410.jpg?v=1750077702&width=713', this)"></div>
+            </div>
+          </div>
+          
+          <a href="/products/sandman-6" class="discover-button">{{ discover_more }}</a>
+        </div>
+      </div>
+
+      <!-- Sandman 7 -->
+      <div class="bike-card">
+        <div class="bike-image-section">
+          <img class="bike-image" id="bike-7"
+               src="https://i.goopics.net/l39mbo.png" 
+               alt="Sandman 7">
+        </div>
+        <div class="bike-info">
+          <h3 class="bike-name">Sandman 7</h3>
+          <p class="bike-description">{{ sandman_7_desc }}</p>
+          
+          <div class="color-options">
+            <span class="color-label">{{ available_colors }}</span>
+            <div class="color-swatches">
+              <div class="color-swatch black-forest active" 
+                   onclick="BikeGallery.switchColor('bike-7', 'https://i.goopics.net/l39mbo.png', this)"></div>
+              <div class="color-swatch ivory-desert" 
+                   onclick="BikeGallery.switchColor('bike-7', 'https://rinosbike.com/cdn/shop/files/1.jpg?v=1732702119&width=713', this)"></div>
+              <div class="color-swatch chameleon-gold" 
+                   onclick="BikeGallery.switchColor('bike-7', 'https://rinosbike.com/cdn/shop/files/Group_400.png?v=1752218414&width=713', this)"></div>
+              <div class="color-swatch metal-blue-violet" 
+                   onclick="BikeGallery.switchColor('bike-7', 'https://rinosbike.com/cdn/shop/files/Group_410.jpg?v=1750077702&width=713', this)"></div>
+            </div>
+          </div>
+          
+          <a href="/products/sandman-7" class="discover-button">{{ discover_more }}</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Final Section with Sandman 8 and CTA -->
+    <div class="final-section">
+      <!-- Sandman 8 -->
+      <div class="bike-card">
+        <div class="bike-image-section">
+          <img class="bike-image" id="bike-8"
+               src="https://rinosbike.com/cdn/shop/files/1_12b8b7fc-6e0b-4621-8c2f-839badcd3cbb.png?v=1751964350&width=1346" 
+               alt="Sandman 8">
+        </div>
+        <div class="bike-info">
+          <h3 class="bike-name">Sandman 8</h3>
+          <p class="bike-description">{{ sandman_8_desc }}</p>
+          
+          <div class="color-options">
+            <span class="color-label">{{ available_colors }}</span>
+            <div class="color-swatches">
+              <div class="color-swatch coffee-brown active"></div>
+            </div>
+          </div>
+          
+          <a href="https://rinosbike.com/products/sandman-8?_pos=3&_sid=48f8be9ec&_ss=r" class="discover-button">{{ discover_more }}</a>
+        </div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="cta-section">
+        <img src="https://i.goopics.net/msph5v.png" alt="Sandman 8 Hero" class="cta-hero-image">
+        <div class="cta-content">
+          <div class="cta-badge">{{ flagship_model }}</div>
+          <h2 class="cta-title">Sandman 8</h2>
+          <p class="cta-subtitle">{{ sandman_8_cta }}</p>
+          
+          <div class="cta-buttons">
+            <a href="https://rinosbike.com/products/sandman-8?_pos=3&_sid=48f8be9ec&_ss=r" class="cta-primary">{{ shop_sandman_8 }}</a>
+            <a href="/collections/gravel-bikes" class="cta-secondary">{{ compare_models }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+// Namespace to avoid conflicts with other Shopify scripts
+window.BikeGallery = window.BikeGallery || {};
+
+BikeGallery.switchColor = function(bikeId, imageUrl, clickedSwatch) {
+  try {
+    // Change the bike image
+    const bikeImg = document.getElementById(bikeId);
+    if (bikeImg) {
+      bikeImg.src = imageUrl;
+    }
+    
+    // Update active color swatch
+    const allSwatches = clickedSwatch.parentElement.querySelectorAll('.color-swatch');
+    allSwatches.forEach(function(swatch) {
+      swatch.classList.remove('active');
+    });
+    clickedSwatch.classList.add('active');
+  } catch (error) {
+    console.error('BikeGallery error:', error);
+  }
+};
+
+// Initialize when DOM is ready
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('BikeGallery initialized');
+  
+  // Debug: Check if swatches are present
+  const swatches = document.querySelectorAll('.bike-gallery .color-swatch');
+  console.log('Found', swatches.length, 'color swatches');
+  
+  // Add click event listeners as fallback
+  swatches.forEach(function(swatch) {
+    swatch.addEventListener('click', function() {
+      console.log('Swatch clicked:', this.className);
+    });
+  });
+});
+</script>
