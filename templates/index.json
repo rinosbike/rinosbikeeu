@@ -9,6 +9,50 @@
  */
 {
   "sections": {
+    "rich_text_4KXnPV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TTcdMt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to the world of Rinos",
+            "heading_size": "h1"
+          }
+        },
+        "text_WDrqEc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here you can find all of our bike models as well as diverse range of accessories</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TTcdMt",
+        "text_WDrqEc"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "trust_marquee_MAtLjz": {
+      "type": "trust-marquee",
+      "name": "Trust Marquee Banner",
+      "settings": {
+        "bg_color": "#000000",
+        "text_color": "#FFFFFF",
+        "font_size": 14,
+        "font_weight": "500",
+        "text_transform": "uppercase",
+        "speed": 30,
+        "padding_vertical": 12
+      }
+    },
     "image_banner_cR6hqL": {
       "type": "image-banner",
       "blocks": {
@@ -47,7 +91,7 @@
       "settings": {
         "image": "shopify://shop_images/image0.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "medium",
         "desktop_content_position": "top-right",
         "show_text_box": false,
         "desktop_content_alignment": "right",
@@ -81,14 +125,14 @@
         "text_9zrraz": {
           "type": "text",
           "settings": {
-            "text": "Sandman 5",
+            "text": "Sandman 4",
             "text_style": "body"
           }
         },
         "heading_MhzxKU": {
           "type": "heading",
           "settings": {
-            "heading": "Every underground everywhere",
+            "heading": "Conquer all terrains and races",
             "heading_size": "h0"
           }
         },
@@ -110,13 +154,13 @@
         "buttons_ijJJyE"
       ],
       "settings": {
-        "image": "shopify://shop_images/test.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image": "shopify://shop_images/att.uph39nUk7j_KQqCRfb7twp3kPsDHpugDhw9HqI8D3jM_1.jpg",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
         "desktop_content_position": "top-right",
         "show_text_box": false,
         "desktop_content_alignment": "right",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "fixed",
         "mobile_content_alignment": "right",
         "stack_images_on_mobile": false,
@@ -136,7 +180,7 @@
         "heading_yLHH3C": {
           "type": "heading",
           "settings": {
-            "heading": "<em>Light</em> <strong>weight</strong>",
+            "heading": "Get your first MTB now",
             "heading_size": "h0"
           }
         },
@@ -158,15 +202,15 @@
         "buttons_QBWJYA"
       ],
       "settings": {
-        "image": "shopify://shop_images/Gaia_2_website_banner.png",
+        "image": "shopify://shop_images/DSC_0119.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "top-center",
+        "image_height": "medium",
+        "desktop_content_position": "top-left",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
         "image_behavior": "fixed",
-        "mobile_content_alignment": "right",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
       }
@@ -317,6 +361,8 @@
     }
   },
   "order": [
+    "rich_text_4KXnPV",
+    "trust_marquee_MAtLjz",
     "image_banner_cR6hqL",
     "featured_blog_CqCWk7",
     "image_banner_TA7mXD",
