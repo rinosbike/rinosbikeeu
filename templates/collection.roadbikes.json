@@ -56,7 +56,7 @@
         "container_padding": 20,
         "padding_top": 60,
         "padding_bottom": 60,
-        "video_label": "Featured Video",
+        "video_label": "",
         "carousel_label": "Compare Models",
         "carousel_hint_text": "Swipe or use arrows to compare",
         "featured_badge_text": "RECOMMENDED",
