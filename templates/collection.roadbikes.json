@@ -165,6 +165,7 @@
       "type": "odin-sizing-guide",
       "name": "ODIN Sizing Guide Compact",
       "settings": {
+        "geometry_image": "shopify://shop_images/80extk.png",
         "contact_url": "/pages/contact"
       }
     }
