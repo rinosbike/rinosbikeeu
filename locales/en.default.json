@@ -902,5 +902,82 @@
       "fork": "FOX 32 Rhythm Remote",
       "travel": "100mm"
     }
-  }
+  },
+  "rinos_trudi": {
+      "header": "Rinos x TRUDI",
+      "subtext_1": "Better wheels, same fair price. We just added Berd's TRUDI system to our workshop—not to charge you more, but to deliver pro-level wheel builds on every bike.",
+      "subtext_2": "Perfectly true wheels, accurate to 0.25mm. More precision, zero upcharge. Because cycling shouldn't be a luxury sport.",
+      "button_text": "Discover the Full Blog",
+      "button_link": "/blogs/news/rinos-invests-in-trudi-better-wheels-same-fair-price"
+      },
+  "klarna": {
+    "shop_now_pay_with_klarna": "Shop now. Pay with Klarna.",
+    "learn_more": "Learn more",
+    "flexible_payment_methods": "Flexible payment methods",
+    "pay_in_up_to_30_days": "Pay in up to 30 days",
+    "receive_order_then_pay": "Receive your order first, then pay.",
+    "installments": "Installments",
+    "split_into_smaller_payments": "Split the amount into smaller payments.",
+    "pay_now": "Pay now",
+    "pay_full_amount_today": "Pay the full amount today with a card.",
+    "payment_availability": "The availability of payment methods may vary by shop and amount. Subject to credit check. Additional payment conditions may apply.",
+    "payment_conditions": "Payment conditions",
+    "agb_link": "https:\/\/www.klarna.com\/uk\/terms-and-conditions\/",
+    "buyer_protection": "Klarna's buyer protection excludes certain payment methods and purchases, e.g. travel, event tickets, or gift cards.",
+    "how_it_works": "How it works:",
+    "choose_klarna_at_checkout": "Choose Klarna at checkout",
+    "choose_payment_plan": "Choose a payment plan",
+    "different_plans_based_on_amount": "Depending on the purchase amount and creditworthiness, different payment plans may be displayed.",
+    "complete_order": "Complete your order",
+    "automatic_deduction": "We automatically deduct the installments according to your payment plan.",
+    "close": "Close",
+    "installment_message": "or {{ price }} per month with"
+  },
+  "bannerhomepage": {
+    "text": "Discover the components of our new gravel bike!",
+    "buttontext": "Learn more",
+    "link": "https://rinosbike.com/products/sandman-4"
+  },
+  "rinostitanium": {
+    "atlas_1": "Atlas 1",
+    "atlas_3": "Atlas 3",
+    "atlas_5": "Atlas 5",
+
+    "frame_material": "Frame Material",
+    "fork": "Fork",
+    "groupset": "Groupset",
+    "brakes": "Brakes",
+    "cassette": "Cassette",
+    "crankset": "Crankset",
+    "wheelset": "Wheelset",
+    "tire": "Tire",
+    "seatpost": "Seatpost",
+    "handlebar": "Handlebar",
+    "weight": "Weight",
+
+    "titanium": "Titanium",
+    "toray_t800_carbon": "Toray T800 Carbon",
+
+    "shimano_grx_400_20": "Shimano GRX 400 (20-speed)",
+    "shimano_grx_600_22": "Shimano GRX 600 (22-speed)",
+    "shimano_grx_820_24": "Shimano GRX 820 (24-speed)",
+
+    "shimano_grx_400_hydraulic": "Shimano GRX 400 Hydraulic",
+    "shimano_grx_600_hydraulic": "Shimano GRX 600 Hydraulic",
+    "shimano_grx_820_hydraulic": "Shimano GRX 820 Hydraulic",
+
+    "hg500_11_34t": "10-Speed",
+    "r8100_11_34t": "11-Speed",
+    "11_speed_11_34t": "12-Speed",
+
+    "grx_fc_rx600_46_30t": "Shimano GRX FC-RX600 (46-30T)",
+    "grx_fc_rx820_48_31t": "Shimano GRX FC-RX820 (48-31T)",
+
+    "rinos_28h_38mm_depth": "Rinos 28H, 38mm Depth",
+    "700x40c": "700×40C",
+    "rinos_carbon_31_6x400": "Rinos Carbon 31.6 × 400 mm",
+    "rinos_carbon_420_440": "Rinos Carbon 420/440 mm",
+
+    "approx_103kg": "~10.3 kg"
+}
 }
